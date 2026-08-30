@@ -69,7 +69,7 @@ Dieser Workshop ist aus dem Kurs ["AI Done Right"](https://www.skool.com/aidoner
 
 ## Über die Organisatorin
 
-Ich baue mittelfristig ein Angebot als Coachin auf, das Frauen die Data- und Coding-Literacy vermittelt, die es braucht, um bei der KI-Transformation mitzugestalten statt nur zuzuschauen. Diese Installationsparty ist ein erster Schritt davon — niederschwellig, aber fordernd genug, um wirklich etwas mitzunehmen.
+Ich baue mittelfristig ein Angebot als Coachin auf, das Frauen die Data- und Coding-Literacy vermittelt, die es braucht, um bei der KI-Transformation mitzugestalten statt nur zuzuschauen. Diese Installationsparty ist ein erster Schritt davon — niederschwellig, aber fordernd genug, um wirklich etwas mitzunehmen. [Patricia Ennenbach](https://www.linkedin.com/in/patricia-ennenbach/)
 
 ## Lizenz
 
