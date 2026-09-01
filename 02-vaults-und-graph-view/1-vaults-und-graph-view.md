@@ -2,6 +2,8 @@
 
 Die fünf Beispiel-Notizen (`Obsidian.md`, `Zettelkasten.md`, `Second Brain.md`, `OKF.md`, `KI-Workflow.md`) liegen bereits fertig in deinem Vault — nur noch ohne Verlinkung. Die baust du in diesem Kapitel selbst auf.
 
+*Eine sechste Notiz, `Kundenprojekt-Lotos.md`, liegt ebenfalls schon im Vault, bleibt hier aber bewusst unverlinkt und taucht als isolierter Punkt in der Graph-Ansicht auf — kein Fehler, sie wird erst in Kapitel 6 gebraucht.*
+
 ## 1. Was ist ein Vault
 
 Ein Vault ist einfach ein Ordner auf der Festplatte, den Obsidian als „Notiz-Sammlung" erkennt — der Ordner, den du in der Vorbereitung schon heruntergeladen und geöffnet hast. Keine Cloud, keine Magie dahinter.

@@ -1,5 +1,7 @@
 # OKF – Open Knowledge Format
 
+*Du hast das OKF-Frontmatter (`type`, `status`, `sources` ...) in Kapitel 5 schon in Aktion gesehen — deine KI hat damit gearbeitet, ohne dass du wissen musstest, was genau dahintersteckt. Dieses Kapitel ist die Vertiefung für alle, die es jetzt genauer wissen wollen. Kein Muss, um mit dem Workshop fertig zu sein — aber ein spannender Blick unter die Haube.*
+
 Basiert auf der offiziellen Spezifikation von Google: [github.com/GoogleCloudPlatform/knowledge-catalog](https://github.com/GoogleCloudPlatform/knowledge-catalog/blob/main/okf/SPEC.md). Für diesen Workshop reicht ein vereinfachter Ausschnitt der Kernfelder.
 
 ## Was ist OKF
@@ -35,4 +37,4 @@ Für ein tägliches Journal oder simple Aufgabenverwaltung wäre OKF überdimens
 
 Die Unterscheidung passt zum Zettelkasten-Prinzip aus Kapitel 1: Luhmann trennte zwischen *flüchtigen Notizen* (schnell, unstrukturiert — euer Journal) und *permanenten Notizen* (durchdacht, verknüpft, dauerhaft). OKF ist ein Format für die **permanenten** Notizen — die, die es wert sind, dauerhaft im Second Brain zu bleiben.
 
-Praktisch heißt das: Man schreibt frei im Journal, und nur wenn eine Idee es wert ist, bekommt sie beim „Befördern" ins Second Brain einen `type`, vielleicht `status: draft`, später `verified`. Genau diesen Übergang — von unstrukturierter Notiz zu OKF-Format — behandelt Kapitel 8 im Detail.
+Praktisch heißt das: Man schreibt frei im Journal, und nur wenn eine Idee es wert ist, bekommt sie beim „Befördern" ins Second Brain einen `type`, vielleicht `status: draft`, später `verified`. Genau diesen Übergang — von unstrukturierter Notiz zu OKF-Format — behandelt Kapitel 5 im Detail.

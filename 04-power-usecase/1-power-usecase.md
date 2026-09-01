@@ -1,51 +1,50 @@
-# Power-Usecase: Dataview, Canvas, Templates & Cron
+# Power-Usecase: Vom Terminal-Befehl zum natürlichsprachigen Prompt
+
+## Einstieg: Prompting ist nicht neu
+
+Im letzten Kapitel hast du Befehle wie `grep`, `mkdir` oder `ollama run llama3.2` eingetippt. Das ist im Kern schon ein **Prompt** — nur in einer strengen, formalen Syntax, die der Computer eindeutig versteht. Programmiererinnen „prompten" Computer, seit es Computer gibt — nur eben bisher in Programmier- oder Kommandosprache statt in Alltagssprache.
+
+Die eigentliche Innovation von KI-Sprachmodellen ist deshalb nicht „der Computer kann jetzt reden" — sondern dass die Sprachbarriere zwischen dir und der formalen Syntax verschwindet: Du beschreibst in natürlicher Sprache, was du willst, und das Modell übersetzt das in genau den Code oder Befehl, den der Computer eigentlich braucht. In diesem Kapitel siehst du das an konkreten Obsidian-Features.
 
 ## Rahmenerzählung
 
-Stell dir vor, die fünf Notizen aus Kapitel 2 (`Obsidian`, `Zettelkasten`, `Second Brain`, `OKF`, `KI-Workflow`) sind Teil der Wissensbasis einer Solo-Beraterin. Sie nutzt sie, um Konzepte für Kundinnen nachzuschlagen und wiederzuverwenden — will aber auf einen Blick sehen, welche Notizen noch unfertig sind, bevor sie in ein Angebot einfließen.
+Stell dir vor, die Notizen aus Kapitel 2 (`Obsidian`, `Zettelkasten`, `Second Brain`, `OKF`, `KI-Workflow`) sind Teil der Wissensbasis einer Solo-Beraterin. Sie nutzt sie, um Konzepte für Kundinnen nachzuschlagen und wiederzuverwenden — will aber auf einen Blick sehen, welche Notizen noch unfertig sind, bevor sie in ein Angebot einfließen.
 
-## Feature 1: Dataview (Hauptübung)
+## Feature 1: Bases — Datenbank-Ansichten ohne Abfragesprache
 
-Dataview ist eine Externe Erweiterung, die Notizen nach Frontmatter-Feldern abfragt und als Tabelle oder Liste anzeigt — statt jede Datei einzeln zu öffnen.
-
-**Voraussetzung:** Externe Erweiterung „Dataview" installieren (siehe Kapitel 1, Punkt 6 zu Plugins).
+**Bases** ist eine in Obsidian eingebaute Funktion (kein Plugin, keine Installation nötig), mit der du Notizen nach Frontmatter-Feldern filtern, sortieren und als Tabelle anzeigen kannst — komplett über Klick-Oberfläche, ganz ohne eigene Abfragesprache zu lernen.
 
 **Übung:**
 1. Ergänze bei den 5 Notizen aus Kapitel 2 ein `status`-Feld im Frontmatter (`draft` oder `stable`) — frei nach eigener Einschätzung.
-2. Schreibe eine Dataview-Abfrage, die alle Notizen mit `status: draft` auflistet.
-3. Erweitere die Abfrage: Liste alle Notizen mit `type` und `status` in einer Tabelle.
+2. Erstelle eine neue Base, filtere auf `status = draft`.
+3. Erweitere die Ansicht um eine zweite Spalte: `type` neben `status`.
 
-**Auflösung:**
-```dataview
-TABLE type, status
-FROM "02-vaults-und-graph-view"
-WHERE status = "draft"
-```
-
-**Business-Bogen:** Genau so eine Abfrage lässt sich zu einem kleinen Dashboard ausbauen — „Alle Notizen, die vor einem Kundentermin noch geprüft werden müssen" oder „Alle SOPs, die älter als 6 Monate sind" (über `stale_after` aus Kapitel 3). Das ist der Punkt, an dem Obsidian vom reinen Notizzettel zum echten Wissens-Werkzeug wird.
+**Business-Bogen:** Genau so eine Ansicht lässt sich zu einem kleinen Dashboard ausbauen — „Alle Notizen, die vor einem Kundentermin noch geprüft werden müssen." Das ist der Punkt, an dem Obsidian vom reinen Notizzettel zum echten Wissens-Werkzeug wird, ganz ohne dass du dafür programmieren musst.
 
 ## Feature 2: Canvas
 
-Obsidians eingebautes „unendliches Whiteboard": Notizen, Text-Karten, Bilder oder Web-Links frei auf einer 2D-Fläche platzieren und händisch mit Pfeilen verbinden. Anders als die Graph-Ansicht (automatisch aus Links berechnet) ist Canvas manuell und räumlich — gut für Brainstorming oder um einen Workflow zu skizzieren.
+Obsidians eingebautes „unendliches Whiteboard": Notizen, Text-Karten, Bilder oder Web-Links frei auf einer 2D-Fläche platzieren und händisch mit Pfeilen verbinden. Anders als der Graph View (automatisch aus Links berechnet) ist Canvas manuell und räumlich — gut für Brainstorming oder um einen Workflow zu skizzieren.
 
 **Mini-Übung:** Lege ein Canvas an, ziehe die fünf Notizen aus Kapitel 2 als Karten hinein und ergänze eine Freitext-Karte mit einem Kommentar — z. B. so, wie du das eigene Wissenssystem einer Kundin präsentieren würdest.
 
-## Feature 3: Templates
+## Feature 3: Templates — Konsistenz durch Vorlagen pro Notiz-Typ
 
-Zwei Ebenen: Die **Obsidian-Erweiterung „Templates"** fügt einen fest vordefinierten Textbaustein in eine neue Notiz ein (z. B. das OKF-Frontmatter-Gerüst aus Kapitel 3 direkt fertig mit `type:`, `status:`, `sources:`). Die **Externe Erweiterung „Templater"** kann zusätzlich dynamische Werte einsetzen (heutiges Datum, Cursor-Position, kleine Skripte).
+Zwei Ebenen: Das **Core Plugin „Templates"** fügt einen fest vordefinierten Textbaustein in eine neue Notiz ein. Das Community-Plugin **Templater** kann zusätzlich dynamische Werte einsetzen (heutiges Datum, Cursor-Position, kleine Skripte).
 
-**Mini-Übung:** Lege ein Template namens `Neues Konzept.md` an, das die OKF-Pflichtfelder leer vorgibt. Erzeuge daraus eine neue Notiz.
+Der eigentliche Kniff für ein wachsendes Second Brain: pro `type` ein eigenes Template. Eine Notiz vom Typ „Kundenprojekt" bekommt immer dieselben Frontmatter-Felder vorgegeben (z. B. `type`, `status`, `ansprechpartnerin`, `kickoff`), eine Notiz vom Typ „SOP" andere. Über die Befehlspalette (`Cmd/Ctrl+P`) rufst du „Neue Notiz aus Vorlage" auf, wählst den Typ — und das Frontmatter-Gerüst steht, ohne dass du es jedes Mal neu tippen musst.
+
+**Mini-Übung:** Lege ein Template namens „Neues Konzept" an, das die Felder `type`, `status` und `sources` leer vorgibt. Erzeuge daraus eine neue Notiz.
 
 ## Feature 4 (Ausblick, ohne Übung): Cron
 
-Es gibt eine Externe Erweiterung namens **„Cron"** (`obsidian-cron`), das Obsidian-Befehle oder eigene Skripte nach echter Cron-Syntax zeitgesteuert ausführt — solange Obsidian offen bzw. im Hintergrund läuft. Alternative, falls Obsidian geschlossen ist: ein systemseitiger Cron-Job (z. B. via Task Scheduler/`cron`), der ein Skript anstößt, das Dateien im Vault verändert.
+Es gibt eine Externe Erweiterung namens **„Cron"** (`obsidian-cron`), das Obsidian-Befehle oder eigene Skripte nach echter Cron-Syntax zeitgesteuert ausführt — solange Obsidian offen bzw. im Hintergrund läuft.
 
-**Business-Beispiel:** Ein wöchentlicher Job, der alle Notizen mit abgelaufenem `stale_after` (aus Kapitel 3) findet und automatisch auf `status: draft` zurücksetzt oder eine Erinnerungs-Notiz erzeugt — „diese SOPs müssen überprüft werden."
+**Business-Beispiel:** Ein wöchentlicher Job, der veraltete Notizen findet (mehr dazu, wie man „veraltet" sauber definiert, in Kapitel 6) und automatisch auf `status: draft` zurücksetzt oder eine Erinnerungs-Notiz erzeugt — „diese SOPs müssen überprüft werden."
 
 ## Exkurs: Was ist eine SOP
 
-**SOP** = Standard Operating Procedure, „Standardarbeitsanweisung": eine feste, dokumentierte Schritt-für-Schritt-Anleitung für einen wiederkehrenden Ablauf — z. B. „So läuft ein Erstgespräch mit einer neuen Kundin ab". Für Solo-Selbstständige sind SOPs typischerweise selbst Notizen im Vault, oft mit `type: SOP` im OKF-Frontmatter — und genau da wird `stale_after` praktisch.
+**SOP** = Standard Operating Procedure, „Standardarbeitsanweisung": eine feste, dokumentierte Schritt-für-Schritt-Anleitung für einen wiederkehrenden Ablauf — z. B. „So läuft ein Erstgespräch mit einer neuen Kundin ab". Für Solo-Selbstständige sind SOPs typischerweise selbst Notizen im Vault, oft mit einem eigenen `type: SOP` im Frontmatter.
 
-### Links
-https://www.mathoi.at/2023/03/25/obsidian-plugins-im-produktiveinsatz/
-https://www.mathoi.at/2024/01/30/obsidian-plugins-ein-paar-gedanken/
+---
+
+*Einige Ideen in diesem Kapitel (Templates pro Notiz-Typ, Bases statt Dataview für Datenbank-Ansichten) sind inspiriert durch: Bruno Paz, „How I use Obsidian to take notes and manage all my knowledge", brunopaz.dev, 5. Februar 2026. [brunopaz.dev/blog/how-i-use-obsidian-to-take-notes-and-manage-all-my-knowledge](https://brunopaz.dev/blog/how-i-use-obsidian-to-take-notes-and-manage-all-my-knowledge/)*
