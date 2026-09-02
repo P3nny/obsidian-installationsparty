@@ -2,7 +2,11 @@
 
 Die fünf Beispiel-Notizen (`Obsidian.md`, `Zettelkasten.md`, `Second Brain.md`, `OKF.md`, `KI-Workflow.md`) liegen bereits fertig in deinem Vault — nur noch ohne Verlinkung. Die baust du in diesem Kapitel selbst auf.
 
-*Eine sechste Notiz, `Kundenprojekt-Lotos.md`, liegt ebenfalls schon im Vault, bleibt hier aber bewusst unverlinkt und taucht als isolierter Punkt in der Graph-Ansicht auf — kein Fehler, sie wird erst in Kapitel 6 gebraucht.*
+*Eine sechste Notiz, `Kundenprojekt-Lotos.md`, liegt ebenfalls schon im Vault, bleibt hier aber bewusst unverlinkt und taucht als isolierter Punkt in der Graph-Ansicht auf — kein Fehler, sie wird erst in Kapitel 4 gebraucht.*
+
+## Kurzer Zwischenstopp: Was ist Frontmatter?
+
+Öffne `Obsidian.md` — ganz oben siehst du einen Block zwischen zwei `---`-Linien mit `type: Tool` drin. Das nennt man [[Frontmatter]] — die verlinkte Beispiel-Notiz erklärt es kurz. Sie ist übrigens gleich dein erstes Beispiel dafür, wie Verlinkung in diesem Vault funktioniert.
 
 ## 1. Was ist ein Vault
 
@@ -38,6 +42,6 @@ Unten in jeder Notiz zeigt Obsidian an, wer *auf diese Notiz* verlinkt — das i
 
 ## Auflösungen
 
-3. **Graph-Ansicht:** `Obsidian.md` ist am stärksten vernetzt — 2 ausgehende Links (zu Zettelkasten, Second Brain) plus 2 eingehende Links (von OKF, KI-Workflow) ergeben 4 Verbindungen insgesamt. Alle anderen Notizen kommen auf höchstens 3.
+3. **Graph-Ansicht:** Unter den fünf Beispiel-Notizen ist `Obsidian.md` am stärksten vernetzt — 2 ausgehende Links (zu Zettelkasten, Second Brain) plus 2 eingehende Links (von OKF, KI-Workflow) ergeben 4 Verbindungen. *Nebenbei fällt dir vielleicht auf, dass auch die Kapitel-Notizen selbst im Graphen auftauchen und z. B. auf [[Frontmatter]] verlinken — das Workshop-Material ist selbst ein kleines Second Brain.*
 
 4. **Rückverweise-Panel:** In `Obsidian.md` zeigt das Rückverweise-Panel `OKF.md` und `KI-Workflow.md` — das sind die beiden Notizen, die auf `Obsidian.md` verlinken.

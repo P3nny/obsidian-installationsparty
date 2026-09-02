@@ -2,19 +2,18 @@
 
 Dieses Kapitel hat vier Teile: Plugin-Setup & Chat (hier), Workflow – Notiz zu OKF, Second-Brain-Übung und Vergleich verschiedener KI-Setups. Dieser erste Teil legt die Basis für die anderen drei.
 
-## Bevor es losgeht: Plugin verbinden
+## Was ist Claudian?
 
-*Falls du das schon in der Vorbereitung (Teil C, Schritt 6b) erledigt hast, kannst du diesen Abschnitt überspringen — je nachdem, wie eure Gruppe durch den Workshop kommt, haben manche das schon hinter sich, andere holen es jetzt nach.*
+Claudian ist das Obsidian-Plugin, das Claude direkt in deinen Vault holt. Im Hintergrund nutzt es die **Claude Code CLI** — dieselbe Technik, mit der Entwicklerinnen Claude im Terminal steuern, nur eben eingebettet in Obsidian statt in einem separaten Fenster.
 
-In der Vorbereitung (Teil C) hast du bereits **Ollama** mit dem Modell `llama3.2` installiert. Jetzt verbindest du das mit Obsidian:
+## Bevor es losgeht: Claudian verbinden
+
+*Falls du das schon in der Vorbereitung (Teil B) erledigt hast, überspringe diesen Abschnitt.*
 
 1. Einstellungen → **Externe Erweiterungen** → **Durchsuchen**
-2. Installiere **„Copilot"** (oder alternativ „Text Generator") und aktiviere es
+2. **„Claudian"** suchen, installieren, aktivieren
 
-⚠️ **Namensfalle:** Dieses Obsidian-Plugin heißt zufällig auch „Copilot" — hat aber nichts mit GitHub Copilot oder Microsoft 365 Copilot zu tun. Reiner Zufall bei der Namensgebung.
-
-3. In den Plugin-Einstellungen: Provider auf **Ollama** stellen, Modell `llama3.2` auswählen — läuft lokal auf `localhost`, keine weiteren Zugangsdaten nötig
-4. *Falls du in der Vorbereitung Schritt 7 einen Claude-API-Key eingerichtet hast:* Trag ihn schon mal als zweiten Provider ein, du wechselst später in der Übung „Kontrast" dazwischen hin und her
+Fertig — Claudian erkennt die in der Vorbereitung eingerichtete, angemeldete Claude-Code-CLI automatisch. Keine weitere Konfiguration nötig.
 
 ---
 
@@ -30,12 +29,12 @@ Bevor es an die Übungen geht, kurz die Begründung, warum das ganze Setup — M
 | Struktur erkennbar | ja, `#`-Überschriften markieren klar Abschnitte | oft verloren (Layout ≠ Struktur) | teilweise, aber mit Rauschen vermischt |
 | Diffbar/versionierbar (Git) | ja, Zeile für Zeile | nein, binär | nein, binär |
 | Werkzeug-unabhängig | jeder Texteditor öffnet es, auch in 20 Jahren noch | proprietäres Rendering nötig | an Microsoft-Ökosystem gebunden |
-| Metadaten maschinenlesbar | ja — genau das ist das OKF-Frontmatter aus Kapitel 3 | nein, nur separat denkbar | nur versteckt in Word-eigenen Feldern |
-| Durchsuchbar mit Bordmitteln | ja — `grep` aus Kapitel 5 funktioniert direkt | nein, erst Text-Extraktion nötig | nein, erst Konvertierung nötig |
+| Metadaten maschinenlesbar | ja — als [[Frontmatter]], siehe Kapitel 3 | nein, nur separat denkbar | nur versteckt in Word-eigenen Feldern |
+| Durchsuchbar mit Bordmitteln | ja — auch ganz ohne KI, mit einem einzigen Terminal-Befehl (mehr dazu gleich) | nein, erst Text-Extraktion nötig | nein, erst Konvertierung nötig |
 
 **Weitere Aspekte, die für dieses Setup sprechen:**
 
-- **Token-Effizienz:** Reiner Text braucht keine Formatierungs-„Verpackung" — bei PDF/Word geht ein Teil des begrenzten Kontextfensters für Layout-Ballast drauf, der inhaltlich nichts beiträgt. Bei einem lokalen Modell wie unserem Llama 3.2 zählt das besonders.
+- **Token-Effizienz:** Reiner Text braucht keine Formatierungs-„Verpackung" — bei PDF/Word geht ein Teil des Kontextfensters für Layout-Ballast drauf, der inhaltlich nichts beiträgt.
 - **Natürliche Chunk-Grenzen:** Ein Plugin muss Notizen in Häppchen zerlegen, um sie zu durchsuchen. Markdown-Überschriften liefern dafür saubere Bruchstellen — bei einem PDF ohne erkennbare Struktur muss das Tool raten, wo ein Gedanke endet.
 - **Herkunft nachvollziehbar:** Weil unsere Notizen `sources`/`status` im OKF-Frontmatter tragen, kann ein gutes Plugin beim Antworten angeben, aus welcher Notiz eine Aussage stammt.
 - **Ein lebendiges System:** Anders als ein einmal geschriebenes Dokument wächst der Vault mit jeder neuen Notiz — die KI „kennt" das Neue sofort, ohne neu trainiert zu werden.
@@ -67,7 +66,7 @@ Lege eine neue Notiz `Mein-Eindruck-Workshop.md` an, mit 1–2 Sätzen zu deinem
 
 Stell dieselbe Frage zweimal:
 
-1. Im normalen Ollama- oder Claude-Chat **ohne** Vault-Anbindung (z. B. direkt im Terminal mit `ollama run llama3.2`, oder im claude.ai-Browser-Tab)
+1. Im normalen claude.ai-Browser-Tab **ohne** Vault-Anbindung
 2. Im Obsidian-Plugin **mit** Vault-Zugriff
 
 Die Frage dafür:
@@ -80,6 +79,22 @@ Die Frage dafür:
 
 ---
 
-**Bogen zurück zu Kapitel 5:** `grep -r "OKF" . --include="*.md" | sort` aus der Command-Line-Übung war im Grunde schon eine ganz einfache, manuelle Form von „Wissen wiederfinden" — nur ohne KI-Zusammenfassung danach und ohne die Fähigkeit, mehrere Fundstellen selbstständig zu verknüpfen. Das Plugin automatisiert genau das.
+## Ein letzter Blick: Was heißt hier eigentlich „agentisch"?
+
+Bisher hast du gefragt, Claudian hat im Vault gesucht und geantwortet — reiner Text. Jetzt eine Stufe weiter: Bitte Claudian, tatsächlich etwas zu **tun**, nicht nur zu beschreiben:
+
+> „Leg eine neue Notiz `Terminal-Test.md` an, mit `type: Test` im Frontmatter und einem Satz Inhalt."
+
+Schau in der Dateiliste nach — die Notiz ist wirklich da, ganz ohne dass du selbst geklickt oder getippt hast. Genau das unterscheidet eine **agentische KI** von einem gewöhnlichen Chatbot:
+
+| | Chatbot | Agentische KI |
+|---|---|---|
+| Ergebnis | Text, den du selbst umsetzen musst | echte Aktion — Datei wurde erstellt/verändert |
+| Ablauf | eine Antwort, fertig | plant, handelt, prüft das Ergebnis, bessert nach |
+| Beispiel hier | „So könnte deine Notiz aussehen: ..." | Notiz existiert tatsächlich im Vault |
+
+Dafür nutzt Claudian im Hintergrund dieselbe Kommandozeile, die du in der Vorbereitung (Schritt 4) kurz angetestet hast — nur eben automatisiert statt von dir selbst getippt.
+
+**Neugierig, was da im Hintergrund wirklich passiert?** Genau darum geht's im **Bonus-Kapitel Command Line**.
 
 **Weiter geht's in Teil 2:** Workflow — wie aus einer unstrukturierten Notiz automatisch eine OKF-konforme wird.

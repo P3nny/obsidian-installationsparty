@@ -21,14 +21,15 @@ Vorausgesetzt wird nichts außer einem eigenen Laptop und Neugier.
 - **Obsidian installieren** und die Grundidee dahinter verstehen
 - **Markdown** — die einfache Auszeichnungssprache, mit der alles hier geschrieben ist
 - **Vaults** — wie Obsidian deine Notizen organisiert
-- **Graph View** — wie aus verlinkten Notizen ein sichtbares Wissensnetz wird
-- **Open Knowledge Format (OKF)** — ein leichtgewichtiges Format, um Notizen mit Struktur, Herkunft und Vertrauensstatus zu versehen
-- Ein Beispiel für einen **Obsidian-Power-Usecase**
-- **Grundlagen der Command Line** — genug, um sich sicher zu bewegen
-- Installation der **Claude- bzw. Copilot-Erweiterung**
+- **Graph-Ansicht** — wie aus verlinkten Notizen ein sichtbares Wissensnetz wird
+- **Sync** — welche Wege es gibt, den Vault auf mehreren Geräten aktuell zu halten
+- Installation der KI-Erweiterung **Claudian** samt Claude Code CLI
 - Ein **KI-Workflow**, der unstrukturierte Notizen automatisch ins OKF-Format bringt
 - Eine Übung, wie du dein Vault als **Second Brain** im Alltag nutzt
 - Eine Einordnung: **Vorteile dieses Setups** (Obsidian/Markdown + KI) gegenüber anderen KI-Setups
+-  Ein Beispiel für einen **Obsidian-Power-Usecase** (Bases, Canvas, Templates, Cron)
+- Open Knowledge Format (OKF)** — ein leichtgewichtiges Format, um Notizen mit Struktur, Herkunft und Vertrauensstatus zu versehen
+- **Bonus:** Grundlagen der Command Line — genug, um sich sicher zu bewegen
 - **Bonus:** Git-Grundlagen — was es ist, wofür man es braucht, erster Commit und Push mit dem eigenen Vault als Repo
 
 ## Format & Ablauf
@@ -41,35 +42,43 @@ Auch wenn du nicht live dabei bist: Das Material hier ist so geschrieben, dass e
 
 1. Installiere zuerst Obsidian: [obsidian.md](https://obsidian.md)
 2. Lade dieses gesamte Repository herunter (`Code` → `Download ZIP`, oder `git clone`, falls du das schon kannst)
-3. Öffne den heruntergeladenen Ordner in Obsidian als Vault ("Open folder as vault")
+3. Öffne den heruntergeladenen Ordner in Obsidian als Vault („Ordner als Vault öffnen")
 4. Du findest darin eine vorbereitete Struktur mit Beispielen, Übungen und Referenzmaterial zum Nachschlagen — leg direkt los, oder folge der Reihenfolge der Kapitel
+5. Weitere Werkzeuge installierst du erst, wenn du beim jeweiligen Kapitel angekommen bist — die Übersicht dazu steht in `00-vorbereitung/`
 
 ## Struktur dieses Repos
 
 ```
-00-vorbereitung/
-01-obsidian-grundlagen/
-02-markdown/
-03-vaults-und-graph-view/
-04-okf-format/
-05-power-usecase/
-06-command-line/
-07-ki-erweiterung/
-08-workflow-notizen-zu-okf/
-09-second-brain-uebung/
-10-vergleich-ki-setups/
-bonus-git/
+00-vorbereitung/              Installation, gestaffelt entlang der Kapitel
+01-obsidian-und-markdown/     Grundlagen + Markdown-Cheatsheet
+02-sync-mehrere-geraete/      Vault auf mehreren Geräten
+03-vaults-und-graph-view/     Vaults, Verlinkung, Graph-Ansicht (inkl. Beispiel-Notizen)
+04-ki-erweiterung/            Claudian-Setup, Workflow zu OKF, Second-Brain-Übung, Vergleich
+05-power-usecase/             Bases, Canvas, Templates, Cron
+06-okf-format/                Vertiefung Open Knowledge Format (optional)
+bonus-command-line/           Command-Line-Grundlagen (freiwillig)
+bonus-git/                    Git-Grundlagen (freiwillig, noch im Aufbau)
 ```
 
-*(Struktur wird noch befüllt — dieses Repo ist im Aufbau.)*
+Die Installation in `00-vorbereitung/` ist so aufgeteilt, dass du immer nur das einrichtest, was das nächste Kapitel tatsächlich braucht:
+
+| Teil | Wann | Werkzeug |
+| ---- | ---- | -------- |
+| A | vor Kapitel 1 | Obsidian, Vault herunterladen und öffnen |
+| B | vor Kapitel 4 | Terminal, Claude Code CLI, Claude-Zugang, Claudian |
+| C | vor Kapitel 5 | Kern-Plugins prüfen (Bases, Canvas, Templates), optional Cron |
+| D | vor Bonus Command Line (optional) | ggf. besseres Windows-Terminal, cowsay, ImageMagick |
+| E | vor Bonus Git (optional) | Git |
+
+Die Kapitel 2, 3 und 6 brauchen nichts zusätzlich.
 
 ## Herkunft & Community
 
-Dieser Workshop ist aus dem Kurs ["AI Done Right"](https://www.skool.com/aidoneright) von Barbara Lampl entstanden. Wer nach dem Kurs dranbleiben wollte, hat sich der Skool-Community akna "the Gäng"  angeschlossen — aus dieser Community heraus ist diese ehrenamtlich organisierte Session entstanden.
+Dieser Workshop ist aus dem Kurs ["AI Done Right"](https://www.skool.com/aidoneright) von Barbara Lampl entstanden. Wer nach dem Kurs dranbleiben wollte, hat sich der [Skool-Community](https://www.skool.com/aidoneright) akna "the Gäng"  angeschlossen — aus dieser Community heraus ist diese ehrenamtlich organisierte Session entstanden.
 
 ## Über die Organisatorin
 
-Ich baue mittelfristig ein Angebot als Coachin auf, das Frauen die Data- und Coding-Literacy vermittelt, die es braucht, um bei der KI-Transformation mitzugestalten statt nur zuzuschauen. Diese Installationsparty ist ein erster Schritt davon — niederschwellig, aber fordernd genug, um wirklich etwas mitzunehmen. [Patricia Ennenbach](https://www.linkedin.com/in/patricia-ennenbach/)
+Ich baue mittelfristig ein Angebot als Coachin auf, das Frauen die Data- und Coding-Literacy vermittelt, die sie brauchen, um bei der KI-Transformation mitzugestalten statt nur zuzuschauen. Diese Installationsparty ist ein erster Schritt davon — niederschwellig, aber fordernd genug, um wirklich etwas mitzunehmen. [Patricia Ennenbach](https://www.linkedin.com/in/patricia-ennenbach/)
 
 ## Lizenz
 

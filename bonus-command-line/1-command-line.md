@@ -1,4 +1,6 @@
-# Command Line
+# Bonus: Command Line
+
+*Du bist hier, weil du in Kapitel 4 gesehen hast, wie eine KI dir einen Terminal-Befehl geschrieben hat — und wissen willst, was dahintersteckt. Genau darum geht's jetzt.*
 
 Inhaltlich angelehnt an das [Django Girls Tutorial](https://tutorial.djangogirls.org/en/intro_to_command_line/), plus ein paar zusätzliche Übungen, die zeigen, wie viel Power in diesem unscheinbaren schwarzen Fenster steckt.
 
@@ -6,7 +8,7 @@ Inhaltlich angelehnt an das [Django Girls Tutorial](https://tutorial.djangogirls
 
 Die Command Line (auch: Terminal, Konsole, CLI, Prompt) ist ein rein textbasiertes Werkzeug, um Dateien auf deinem Rechner anzuschauen, zu verschieben und zu bearbeiten — im Grunde dasselbe wie der Finder (Mac) oder der Explorer (Windows), nur ohne Fenster, Icons und Mausklicks. Stattdessen tippst du Befehle, die der Computer direkt ausführt.
 
-Das mag am Anfang ungewohnt wirken, ist aber oft schneller als Klicken — und einige Dinge gehen überhaupt nur über die Command Line.
+Das mag am Anfang ungewohnt wirken, ist aber oft schneller als Klicken — und einige Dinge gehen überhaupt nur über die Command Line. Die KI aus Kapitel 4 hat dir ja schon gezeigt, dass du diese Befehle nicht mal mehr selbst auswendig kennen musst — aber um zu verstehen, was sie da eigentlich für dich schreibt, lohnt sich ein Blick unter die Haube.
 
 ## Terminal öffnen
 
@@ -29,7 +31,7 @@ $PSVersionTable.PSVersion
 - Kommt eine **Versionsnummer** zurück → du bist in **PowerShell**. Die meisten Befehle in diesem Kapitel funktionieren hier mit der Windows-Spalte aus den Tabellen unten.
 - Kommt eine **Fehlermeldung** (etwa „wird nicht als Name eines Cmdlets erkannt") → du bist in **cmd / Eingabeaufforderung**, der einfachsten Variante.
 
-Falls du in Schritt 5 der Vorbereitung schon **Git Bash** installiert hast: Öffne stattdessen dieses Terminal — dort funktionieren alle Befehle in diesem Kapitel exakt wie auf Mac/Linux beschrieben, ganz ohne Umweg über PowerShell-Alternativen.
+Falls du in Schritt 10 der Vorbereitung schon **Git Bash** installiert hast: Öffne stattdessen dieses Terminal — dort funktionieren alle Befehle in diesem Kapitel exakt wie auf Mac/Linux beschrieben, ganz ohne Umweg über PowerShell-Alternativen.
 
 ## Erste Schritte
 
@@ -95,7 +97,7 @@ Die Command Line kann weit mehr als Ordner verschieben. Hier drei kleine, greifb
 **Installation:**
 - macOS (mit Homebrew): `brew install cowsay`
 - Linux: `sudo apt install cowsay`
-- Windows mit Git Bash (aus Vorbereitung Schritt 5): wie Linux, oder falls dort nicht vorhanden, per PowerShell-Modul (siehe unten)
+- Windows mit Git Bash (aus Vorbereitung Schritt 10): wie Linux, oder falls dort nicht vorhanden, per PowerShell-Modul (siehe unten)
 - Windows ohne Adminrechte: PowerShell-Modul ohne Zusatzrechte installieren: `Install-Module -Scope CurrentUser PSCowsay`, danach `Get-Cow "Hallo Workshop!"` statt der `echo | cowsay`-Pipe unten
 
 **Übung (Mac/Linux/Git Bash):**
@@ -169,11 +171,11 @@ Diese Liste orientiert sich am Aufbau des Buches [*Automate the Boring Stuff wit
 - Excel-Tabellen oder Google Sheets automatisch befüllen oder auswerten
 - PDFs und Word-Dokumente automatisch zusammenführen, aufteilen oder Text daraus extrahieren
 - CSV-, JSON- oder XML-Dateien automatisch verarbeiten
-- Zeitgesteuerte Aufgaben einrichten, die täglich oder wöchentlich von selbst laufen (Stichwort Cron aus Kapitel 4!)
+- Zeitgesteuerte Aufgaben einrichten, die täglich oder wöchentlich von selbst laufen (Stichwort Cron aus Kapitel 5!)
 - Automatisch E-Mails, SMS oder Push-Benachrichtigungen verschicken
 - Diagramme erstellen oder Bilder automatisch bearbeiten (Logo einfügen, Größe ändern, drehen)
 - Text aus Screenshots oder Fotos erkennen (OCR)
 - Sich wiederholende Maus- und Tastatur-Aktionen automatisieren
 - Text vorlesen lassen oder Sprache automatisch in Text umwandeln
 
-Vieles davon ist mit den Grundlagen aus diesem Kapitel schon in Reichweite — der Rest folgt in `06-ki-erweiterung`.
+Vieles davon ist mit den Grundlagen aus diesem Kapitel schon in Reichweite — der Rest folgt in `04-ki-erweiterung`.
