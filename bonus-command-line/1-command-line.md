@@ -1,6 +1,6 @@
 # Bonus: Command Line
 
-*Du bist hier, weil du in Kapitel 4 gesehen hast, wie eine KI dir einen Terminal-Befehl geschrieben hat — und wissen willst, was dahintersteckt. Genau darum geht's jetzt.*
+*Du bist hier, weil Claudian im Hintergrund genau dieses Werkzeug benutzt, um in deinem Vault zu lesen und zu schreiben — und du wissen willst, was da eigentlich passiert. Genau darum geht's jetzt.*
 
 Inhaltlich angelehnt an das [Django Girls Tutorial](https://tutorial.djangogirls.org/en/intro_to_command_line/), plus ein paar zusätzliche Übungen, die zeigen, wie viel Power in diesem unscheinbaren schwarzen Fenster steckt.
 
@@ -8,7 +8,7 @@ Inhaltlich angelehnt an das [Django Girls Tutorial](https://tutorial.djangogirls
 
 Die Command Line (auch: Terminal, Konsole, CLI, Prompt) ist ein rein textbasiertes Werkzeug, um Dateien auf deinem Rechner anzuschauen, zu verschieben und zu bearbeiten — im Grunde dasselbe wie der Finder (Mac) oder der Explorer (Windows), nur ohne Fenster, Icons und Mausklicks. Stattdessen tippst du Befehle, die der Computer direkt ausführt.
 
-Das mag am Anfang ungewohnt wirken, ist aber oft schneller als Klicken — und einige Dinge gehen überhaupt nur über die Command Line. Die KI aus Kapitel 4 hat dir ja schon gezeigt, dass du diese Befehle nicht mal mehr selbst auswendig kennen musst — aber um zu verstehen, was sie da eigentlich für dich schreibt, lohnt sich ein Blick unter die Haube.
+Das mag am Anfang ungewohnt wirken, ist aber oft schneller als Klicken — und einige Dinge gehen überhaupt nur über die Command Line. Die gute Nachricht vorweg: Auswendig lernen musst du davon nichts, dafür hast du inzwischen eine KI. Aber zu verstehen, was sie da für dich tut, lohnt sich — spätestens, wenn sie mal etwas anderes tut als erwartet.
 
 ## Terminal öffnen
 
@@ -178,4 +178,4 @@ Diese Liste orientiert sich am Aufbau des Buches [*Automate the Boring Stuff wit
 - Sich wiederholende Maus- und Tastatur-Aktionen automatisieren
 - Text vorlesen lassen oder Sprache automatisch in Text umwandeln
 
-Vieles davon ist mit den Grundlagen aus diesem Kapitel schon in Reichweite — der Rest folgt in `04-ki-erweiterung`.
+Vieles davon ist mit den Grundlagen aus diesem Kapitel schon in Reichweite — den Rest übernimmt die KI aus `04-ki-second-brain`.

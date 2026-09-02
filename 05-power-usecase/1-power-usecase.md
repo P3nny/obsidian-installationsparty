@@ -1,10 +1,10 @@
 # Power-Usecase: Dieselbe Idee, jetzt in Obsidian selbst
 
-## Einstieg: Von der KI im Terminal zur KI in Obsidian
+## Einstieg: Dieselbe Idee, diesmal ohne KI
 
-Im letzten Kapitel hast du erlebt, wie deine KI dir einen exakten Terminal-Befehl geschrieben hat, statt dass du die Syntax selbst kennen musstest — du beschreibst in normaler Sprache, was du willst, die KI übersetzt es in die formale Sprache, die der Computer versteht.
+Im letzten Kapitel hast du deinem Vault Fragen gestellt — zuletzt auch eine, die im Grunde eine Datenbank-Abfrage war: „Zeig mir alle Notizen mit `type: Projekt`, die noch `status: draft` sind."
 
-Genau dasselbe Prinzip steckt auch in den Obsidian-eigenen Power-Features dieses Kapitels: Statt eine neue Abfragesprache zu lernen, beschreibst du, was du sehen willst, und das Feature erledigt den Rest — mal durch die KI, mal durch eine simple Klick-Oberfläche, die dieselbe Idee ganz ohne KI umsetzt.
+Für genau solche Fragen braucht es nicht zwingend eine KI. Obsidian bringt dafür eigene Werkzeuge mit, und sie folgen demselben Prinzip: Statt eine Abfragesprache zu lernen, beschreibst oder klickst du, was du sehen willst. Der Unterschied zur KI ist, dass das Ergebnis stehen bleibt — als Ansicht, die sich bei jeder neuen Notiz von selbst aktualisiert, statt als Antwort, die du jedes Mal neu erfragst.
 
 ## Rahmenerzählung
 
@@ -43,7 +43,7 @@ Der eigentliche Kniff für ein wachsendes Second Brain: pro `type` ein eigenes T
 
 Es gibt eine Externe Erweiterung namens **„Cron"** (`obsidian-cron`), das Obsidian-Befehle oder eigene Skripte nach echter Cron-Syntax zeitgesteuert ausführt — solange Obsidian offen bzw. im Hintergrund läuft.
 
-**Business-Beispiel:** Ein wöchentlicher Job, der veraltete Notizen findet (mehr dazu, wie man „veraltet" sauber definiert, in Kapitel 6) und automatisch auf `status: draft` zurücksetzt oder eine Erinnerungs-Notiz erzeugt — „diese [[SOP]]s müssen überprüft werden."
+**Business-Beispiel:** Ein wöchentlicher Job, der veraltete Notizen findet (mehr dazu, wie man „veraltet" sauber definiert, in Kapitel 4, Teil 5) und automatisch auf `status: draft` zurücksetzt oder eine Erinnerungs-Notiz erzeugt — „diese [[SOP]]s müssen überprüft werden."
 
 ---
 

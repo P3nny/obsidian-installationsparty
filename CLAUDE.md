@@ -11,19 +11,31 @@ Live-Workshop (Zoom + Breakout-Rooms) für eine technisch heterogene, überwiege
 01-obsidian-und-markdown/
 02-sync-mehrere-geraete/
 03-vaults-und-graph-view/
-04-ki-erweiterung/          (4 Teile: Plugin-Setup&Chat, Workflow-zu-OKF, Second-Brain-Übung, Vergleich)
+04-ki-second-brain/         (5 Teile: Plugin-Setup&Chat, Wissen-reinholen/Web-Clipper, Verdichten&Wiederfinden, Eigenes-Wissen, OKF)
 05-power-usecase/
-06-okf-format/              (Vertiefung, optional)
 bonus-command-line/         (Pull-Marketing aus Kapitel 4, kein Pflichtkapitel)
 notizen/                    Konzept-/Begriffsnotizen, dienen zugleich als Demo-Material (Graph-Ansicht, Bases, Canvas, KI-Übungen)
+Clippings/                  Beispiel-Clips des Web Clippers, Rohmaterial für Kapitel 4 Teil 2/3
 bonus-git/                  Git-Grundlagen + Plugin „Obsidian Git"
 ```
 
 **Wichtig bei Strukturänderungen:** Kapitel-Nummern werden im Fließtext quervermerkt („siehe Kapitel 3" etc.) — bei Umbenennung/Umsortierung IMMER per `grep -rn "Kapitel [0-9]"` alle Dateien durchsuchen und Referenzen mitziehen.
 
+## Tokensparend arbeiten
+
+Jede Änderung soll so wenig Tokens wie möglich kosten — beim Schreiben *und* bei allen künftigen Änderungen.
+
+- **Eine Information gehört an genau eine Stelle.** Vor dem Schreiben prüfen: Steht das schon irgendwo? Wenn ja, dorthin verlinken statt wiederholen. Was an drei Stellen steht, muss später dreimal geändert werden — und wird garantiert irgendwo vergessen.
+- **Verweise statt Kopien.** Das Konzept in die Begriffsnotiz (`notizen/`), das Kapitel verlinkt nur `[[Begriff]]`. Installationsschritte gehören ausschließlich in `00-installation.md`; Kapitel verweisen auf „Teil B, Schritt 7b" statt die Anleitung zu wiederholen.
+- **Beim Ändern nur den betroffenen Absatz anfassen**, nicht ganze Dateien neu schreiben. Gezielte Edits statt Komplett-Neufassungen.
+- **Vorsicht bei Redundanz-Fallen** in diesem Repo: Kapitelstruktur steht in `README.md`, `CLAUDE.md` und der Tabelle in `00-installation.md`; Werkzeug-Listen in `README.md` und `00-installation.md`. Beim Umbauen alle drei prüfen — oder besser: nicht noch eine vierte Stelle schaffen.
+- **Erst lesen, was nötig ist.** Gezielt greppen statt ganze Ordner einlesen.
+
 ## Werkzeug-Entscheidungen (aktueller Stand)
 
 - **Claudian** ist das einzige KI-Plugin, das genutzt wird — kein Ollama, kein Copilot-Plugin, kein Dataview (alles bewusst rausgeworfen nach Praxistests)
+- **Obsidian Web Clipper** (offizielle Browser-Erweiterung) als optionaler Install in Teil B, Schritt 7b. Bewusst optional: Firmenrechner erlauben oft nur freigegebene Erweiterungen. Fallback sind die zwei fertigen Clips in `Clippings/`, mit denen alle Übungen funktionieren.
+- Inhaltliche Grundlage für den Second-Brain-Kreislauf sind die zwei Clippings (Karpathy: ingest → compile → Q&A → zurückfilen → linting; Tom Liu: der Engpass ist die Fleißarbeit nach dem Lesen).
 - Claude Code CLI wird über den **nativen Installer** eingerichtet (kein Node.js/npm nötig): `curl -fsSL https://claude.ai/install.sh | bash` (Mac/Linux) bzw. `irm https://claude.ai/install.ps1 | iex` (Windows).
 - **Bases** (nativ, kein Plugin) statt Dataview für Datenbank-Ansichten.
 - **Templates** (natives Kern-Plugin) statt Templater — die Übungen brauchen nur feste Bausteine und `{{date}}`/`{{title}}`/`{{time}}`. Templater steht in Kapitel 5 nur noch als Ausblick.

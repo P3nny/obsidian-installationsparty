@@ -1,6 +1,16 @@
-# KI-Erweiterung
+# KI-Second-Brain
 
-Dieses Kapitel hat vier Teile: Plugin-Setup & Chat (hier), Workflow – Notiz zu OKF, Second-Brain-Übung und Vergleich verschiedener KI-Setups. Dieser erste Teil legt die Basis für die anderen drei.
+Dieses Kapitel hat fünf Teile:
+
+| Teil | Worum es geht |
+|---|---|
+| 1 (hier) | Claudian einrichten, erster Chat mit dem Vault |
+| 2 | Wissen reinholen — Web Clipper und Rohnotizen |
+| 3 | Verdichten und Wiederfinden — der eigentliche Kreislauf |
+| 4 | Dasselbe mit deinem eigenen Wissen |
+| 5 | OKF — Vertiefung, optional |
+
+Dieser erste Teil legt die Basis für alles Weitere.
 
 ## Was ist Claudian?
 
@@ -19,7 +29,7 @@ Fertig — Claudian erkennt die in der Installation eingerichtete, angemeldete C
 
 ## Warum überhaupt Markdown-Dateien fürs Second Brain?
 
-Bevor es an die Übungen geht, kurz die Begründung, warum das ganze Setup — Markdown, Obsidian, OKF — überhaupt sinnvoll ist, wenn man mit KI arbeiten will.
+Bevor es an die Übungen geht, kurz die Begründung, warum das ganze Setup — Markdown, Obsidian und eine KI mit Vault-Zugriff — überhaupt sinnvoll ist.
 
 **Der Kern:** Eine `.md`-Datei ist einfach **Text**. Ein `.pdf` oder `.docx` ist dagegen ein **Layout-Format** — es beschreibt vor allem, wo auf einer Seite etwas steht, nicht in erster Linie, was inhaltlich zusammengehört.
 
@@ -30,15 +40,14 @@ Bevor es an die Übungen geht, kurz die Begründung, warum das ganze Setup — M
 | Diffbar/versionierbar (Git) | ja, Zeile für Zeile | nein, binär | nein, binär |
 | Werkzeug-unabhängig | jeder Texteditor öffnet es, auch in 20 Jahren noch | proprietäres Rendering nötig | an Microsoft-Ökosystem gebunden |
 | Metadaten maschinenlesbar | ja — als [[Frontmatter]], siehe Kapitel 3 | nein, nur separat denkbar | nur versteckt in Word-eigenen Feldern |
-| Durchsuchbar mit Bordmitteln | ja — auch ganz ohne KI, mit einem einzigen Terminal-Befehl (mehr dazu gleich) | nein, erst Text-Extraktion nötig | nein, erst Konvertierung nötig |
+| Durchsuchbar mit Bordmitteln | ja — auch ganz ohne KI, mit einem einzigen Terminal-Befehl (siehe Bonus-Kapitel Command Line) | nein, erst Text-Extraktion nötig | nein, erst Konvertierung nötig |
 
 **Weitere Aspekte, die für dieses Setup sprechen:**
 
 - **Token-Effizienz:** Reiner Text braucht keine Formatierungs-„Verpackung" — bei PDF/Word geht ein Teil des Kontextfensters für Layout-Ballast drauf, der inhaltlich nichts beiträgt.
 - **Natürliche Chunk-Grenzen:** Ein Plugin muss Notizen in Häppchen zerlegen, um sie zu durchsuchen. Markdown-Überschriften liefern dafür saubere Bruchstellen — bei einem PDF ohne erkennbare Struktur muss das Tool raten, wo ein Gedanke endet.
-- **Herkunft nachvollziehbar:** Weil unsere Notizen `sources`/`status` im OKF-Frontmatter tragen, kann ein gutes Plugin beim Antworten angeben, aus welcher Notiz eine Aussage stammt.
 - **Ein lebendiges System:** Anders als ein einmal geschriebenes Dokument wächst der Vault mit jeder neuen Notiz — die KI „kennt" das Neue sofort, ohne neu trainiert zu werden.
-- **Versionsgeschichte des eigenen Denkens** *(Bogen zu Bonus-Git)*: Weil es Text ist, lässt sich mit Git nachvollziehen, wie sich eine Idee über Wochen verändert hat.
+- **Versionsgeschichte des eigenen Denkens** *(Bogen zu Bonus-Git)*: Weil es Text ist, lässt sich ggf. mit [[Git]] nachvollziehen, wie sich eine Idee über Wochen verändert hat.
 
 ---
 
@@ -46,13 +55,13 @@ Bevor es an die Übungen geht, kurz die Begründung, warum das ganze Setup — M
 
 ### Übung 1: Multi-Hop-Frage
 
-Nicht „Was ist OKF?" (steht wortwörtlich in einer Datei) — das wäre reines Nachschlagen. Frag stattdessen etwas, das zwei Notizen verknüpft:
+Nicht „Was ist ein Zettelkasten?" (steht wortwörtlich in einer Datei) — das wäre reines Nachschlagen. Frag stattdessen etwas, das zwei Notizen verknüpft:
 
-> „Wie hängen Zettelkasten und OKF zusammen?"
+> „Wann könnte ich mit Frau Sarnowski einen Termin für den Kickoff von Phase 2 machen?"
 
-Das Plugin muss dafür `Zettelkasten.md` und `OKF.md` gleichzeitig heranziehen und selbst eine Brücke bauen, die so in keiner der beiden Dateien steht. Das ist der eigentliche Second-Brain-Moment: Eine Verbindung taucht auf, die du nicht explizit hingeschrieben hast.
+Das Plugin muss dafür `Kundenprojekt-Lotos.md` (wer ist das, welche Phase steht an) und `Arbeitspräferenzen.md` (keine Termine vor 10 Uhr, freitags keine Workshops) gleichzeitig heranziehen. Keine der beiden Notizen erwähnt die andere — die Brücke muss die KI selbst bauen. Das ist der eigentliche Second-Brain-Moment: Eine Verbindung taucht auf, die du nirgends hingeschrieben hast.
 
-**Worauf du achten kannst:** Erwähnt die Antwort beide Konzepte aus eigenem Kontext (Luhmanns permanente Notizen *und* OKFs maschinenlesbare Vertrauens-Metadaten) und stellt selbst eine Verbindung her — z. B. dass OKF im Grunde formalisiert, was Zettelkasten informell schon anstrebt: Notizen, die auch nach Jahren noch verlässlich nutzbar sind?
+**Worauf du achten kannst:** Nennt die Antwort einen konkreten Zeitrahmen *und* begründet ihn mit deinen Regeln — statt nur „Frau Sarnowski ist die Ansprechpartnerin für Lotos" zu wiederholen?
 
 ### Übung 2: Live-Wachstum
 
@@ -93,8 +102,8 @@ Schau in der Dateiliste nach — die Notiz ist wirklich da, ganz ohne dass du se
 | Ablauf | eine Antwort, fertig | plant, handelt, prüft das Ergebnis, bessert nach |
 | Beispiel hier | „So könnte deine Notiz aussehen: ..." | Notiz existiert tatsächlich im Vault |
 
-Dafür nutzt Claudian im Hintergrund dieselbe Kommandozeile, die du in der Installation (Schritt 4) kurz angetestet hast — nur eben automatisiert statt von dir selbst getippt.
+Dafür nutzt Claudian im Hintergrund dieselbe Kommandozeile, die du in der Installation (Schritt 5) mit `claude --version` kurz angetestet hast — nur eben automatisiert statt von dir selbst getippt.
 
 **Neugierig, was da im Hintergrund wirklich passiert?** Genau darum geht's im **Bonus-Kapitel Command Line**.
 
-**Weiter geht's in Teil 2:** Workflow — wie aus einer unstrukturierten Notiz automatisch eine OKF-konforme wird.
+**Weiter geht's in Teil 2:** Wie Wissen überhaupt in den Vault kommt — per Web Clipper aus dem Browser und als hingekritzelte Rohnotiz.

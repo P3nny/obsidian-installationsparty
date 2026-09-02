@@ -2,10 +2,12 @@
 
 ## Worum geht's hier?
 
-Du installierst nicht alles auf einmal, sondern immer genau das, was das nächste Kapitel braucht. Für den Start reichen zwei Dinge:
+Du installierst nicht alles auf einmal, sondern immer genau das, was das nächste Kapitel braucht. Für den Start reichen zwei Dinge — in dieser Reihenfolge:
 
-1. **Obsidian** auf deinem Rechner installiert
-2. Das **Workshop-Vault** von GitHub heruntergeladen und in Obsidian geöffnet
+1. Den **Workshop-Vault** von GitHub herunterladen und entpacken
+2. **Obsidian** installieren und den entpackten Ordner direkt als Vault öffnen
+
+*Warum erst der Ordner?* Obsidian fragt beim allerersten Start, mit welchem Vault du arbeiten willst. Liegt der Workshop-Ordner da schon auf der Platte, wählst du ihn einfach aus und bist fertig. Andersherum klickt man an dieser Stelle gerne auf „Schnellstart", landet in einem leeren Übungs-Vault und muss später umständlich wechseln.
 
 Danach liegen alle weiteren Kapitel bereits im Vault vor dir. Die restlichen Werkzeuge holst du dir erst, wenn du beim jeweiligen Kapitel angekommen bist.
 
@@ -16,9 +18,8 @@ Danach liegen alle weiteren Kapitel bereits im Vault vor dir. Die restlichen Wer
 | `01-obsidian-und-markdown/`      | Obsidian + Vault                                                  | **Teil A**   |
 | `02-sync-mehrere-geraete/`       | nichts — hier wird nur verglichen und entschieden                 | —            |
 | `03-vaults-und-graph-view/`      | nichts — alles schon in Obsidian eingebaut                        | —            |
-| `04-ki-erweiterung/`             | Terminal, Claude Code CLI, Claude-Zugang, Claudian                | **Teil B**   |
+| `04-ki-second-brain/`            | Terminal, Claude Code CLI, Claude-Zugang, Claudian — optional Web Clipper | **Teil B**   |
 | `05-power-usecase/`              | Bases, Canvas, Templates (alle nativ) — optional Cron              | **Teil C**   |
-| `06-okf-format/`                 | nichts — reine Vertiefung                                         | —            |
 | `bonus-command-line/` (optional) | ggf. besseres Windows-Terminal, cowsay, ImageMagick               | **Teil D**   |
 | `bonus-git/` (optional)          | Git + GitHub-Konto, Erweiterung „Obsidian Git"                    | **Teil E**   |
 
@@ -28,14 +29,7 @@ Nur **Teil A** ist Pflicht, bevor es losgeht. Alles andere kommt zum passenden Z
 
 # Teil A: Basis — vor Kapitel 1
 
-## Schritt 1: Obsidian installieren
-
-- Rufe die Webseite [obsidian.md](https://obsidian.md) auf
-- Lade die passende Version für dein Betriebssystem herunter (Windows / Mac / Linux)
-- Installiere Obsidian wie gewohnt
-- Öffne Obsidian einmal — den Startdialog kannst du erstmal ignorieren, wir brauchen gleich einen eigenen Ordner
-
-## Schritt 2: Das Vault von GitHub herunterladen
+## Schritt 1: Das Vault von GitHub herunterladen
 
 Das komplette Workshop-Material liegt in diesem Repo:
 https://github.com/P3nny/obsidian-installationsparty
@@ -49,17 +43,26 @@ So kommst du an die Dateien:
 
 *(Wer Git schon kennt, kann `git clone` benutzen — mehr dazu im Bonus-Kapitel Git.)*
 
+## Schritt 2: Obsidian installieren
+
+- Rufe die Webseite [obsidian.md](https://obsidian.md) auf
+- Lade die passende Version für dein Betriebssystem herunter (Windows / Mac / Linux)
+- Installiere Obsidian wie gewohnt
+- Öffne Obsidian noch nicht bzw. lass den Startdialog erst mal stehen — der ist gleich Schritt 3
+
 ## Schritt 3: Vault in Obsidian öffnen
 
-1. In Obsidian: **„Ordner als Vault öffnen"**
-2. Wähle den entpackten Ordner aus
+1. Im Startdialog **nicht** auf „Schnellstart" klicken, sondern auf **„Ordner als Vault öffnen"**
+2. Wähle den in Schritt 1 entpackten Ordner aus
 3. Obsidian öffnet den Ordner als Vault — du siehst links die Dateistruktur mit allen Kapiteln
 
-Damit ist Teil A abgeschlossen. Die Kapitel 1 bis 3 brauchen nichts weiter als Obsidian selbst — leg direkt los.
+*Schon auf „Schnellstart" geklickt und in einem leeren Vault gelandet? Kein Drama: unten links auf das Vault-Symbol (Schrank) klicken → **Anderes Vault öffnen** → **Ordner als Vault öffnen** — und dann weiter bei Punkt 2.*
+
+Damit ist Teil A abgeschlossen. Die Kapitel 1 bis 3 brauchen nichts weiter als Obsidian selbst — wenn Du nur etwas über Obsidian lernen möchtest, kannst Du direkt bei 01-obsidian-und-markdown loslegen.
 
 ---
 
-# Teil B: Vor Kapitel 4 (KI-Erweiterung)
+# Teil B: Vor Kapitel 4 (KI-Second-Brain)
 
 In Kapitel 4 steuerst du Claude direkt aus Obsidian heraus. Dafür brauchst du drei Bausteine: ein Terminal, die Claude Code CLI und das Obsidian-Plugin Claudian.
 
@@ -69,14 +72,20 @@ Damit begegnet dir hier zum ersten Mal das **Terminal** — das Fenster mit dem 
 
 *Mac- und Linux-Nutzerinnen haben mit dem eingebauten Terminal schon alles, was sie brauchen, und können diesen Schritt überspringen.*
 
-Windows hat nicht nur ein Terminal, sondern mehrere — mit unterschiedlichen Fähigkeiten. Für Kapitel 4 reicht ein kurzer Check, welches du hast:
+Windows hat nicht nur ein Terminal, sondern mehrere — mit unterschiedlichen Befehlen. Erstmal eines öffnen:
 
-1. Drücke die Windows-Taste und tippe **„Terminal"**. Erscheint eine App namens **Terminal** mit einem bunten Symbol? → Du hast **Windows Terminal**, die modernste Variante (bei Windows 11 meist vorinstalliert).
-2. Falls nicht: Tippe stattdessen **„PowerShell"**. Erscheint **Windows PowerShell**? → Zweitbeste Option, auf praktisch jedem Windows-Rechner vorinstalliert.
+1. Drücke die Windows-Taste und tippe **„Terminal"**. Erscheint eine App namens **Terminal**? → öffnen.
+2. Falls nicht: Tippe stattdessen **„PowerShell"** und öffne **Windows PowerShell** — das ist auf praktisch jedem Windows-Rechner vorinstalliert.
 3. Falls auch das nicht auftaucht: Tippe **„cmd"** oder **„Eingabeaufforderung"** — die gibt es garantiert.
 
-- Steht am Zeilenanfang `PS C:\Users\DeinName>` → **PowerShell** (auch innerhalb von Windows Terminal)
+**Wichtig: Der Name der App verrät noch nicht, womit du gerade tippst.** „Windows Terminal" ist nur das Fenster; darin läuft eine sogenannte *Shell* — meist PowerShell, manchmal cmd. Welche es ist, siehst du erst im geöffneten Fenster an der ersten Zeile:
+
+- Steht am Zeilenanfang `PS C:\Users\DeinName>` → **PowerShell** (auch wenn oben „Terminal" steht)
 - Steht dort `C:\Users\DeinName>` ohne das `PS` → **cmd / Eingabeaufforderung**
+
+Merk dir, was bei dir steht — davon hängt in Schritt 5 ab, welchen Befehl du kopierst.
+
+*Im Windows Terminal kannst du übrigens per `+`-Symbol bzw. dem kleinen Pfeil daneben zwischen den Shells wechseln; jeder Tab kann eine andere sein.*
 
 *Und wenn ich gar nichts davon finde?* Das kommt praktisch nicht vor — Claude Code setzt Windows 10 (Version 1809) oder neuer voraus, und dort ist mindestens die Eingabeaufforderung immer installiert. Findet die Suche nichts, liegt es meist an der Windows-Suche selbst: Drücke dann `Windows-Taste + R`, tippe `cmd` und drücke Enter. Blockt die IT deines Firmenrechners tatsächlich beide Terminals, gibt es einen Ausweg ganz ohne Kommandozeile — siehe den Kasten am Ende von Schritt 5.
 
@@ -84,19 +93,45 @@ Windows hat nicht nur ein Terminal, sondern mehrere — mit unterschiedlichen F�
 
 Das ist das Werkzeug, mit dem Claudian (Schritt 7) Claude tatsächlich steuert. Ein einziger Copy-Paste-Befehl, offizielle Software von Anthropic — kein Adminrecht nötig. Nimm die Zeile, die zu deinem Terminal aus Schritt 4 passt:
 
-| Dein Terminal              | Befehl                                                                    |
-| -------------------------- | ------------------------------------------------------------------------- |
-| macOS / Linux              | `curl -fsSL https://claude.ai/install.sh \| bash`                          |
-| Windows **PowerShell**     | `irm https://claude.ai/install.ps1 \| iex`                                 |
+| Dein Terminal                         | Befehl                                                                                      |
+| ------------------------------------- | ------------------------------------------------------------------------------------------- |
+| macOS / Linux                         | `curl -fsSL https://claude.ai/install.sh \| bash`                                           |
+| Windows **PowerShell**                | `irm https://claude.ai/install.ps1 \| iex`                                                  |
 | Windows **Eingabeaufforderung (cmd)** | `curl -fsSL https://claude.ai/install.cmd -o install.cmd && install.cmd && del install.cmd` |
 
-Test, ob's geklappt hat: `claude --version` sollte eine Versionsnummer zeigen.
+Test, ob's geklappt hat. Tippe in deinem Terminal: 
+```claude --version```
+Das sollte eine Versionsnummer zeigen.
 
 **Wenn eine Fehlermeldung kommt:**
 
 - `'irm' wird nicht als Befehl erkannt` → Du bist in cmd, hast aber den PowerShell-Befehl genommen. Nimm die cmd-Zeile.
 - `Die Token "&&" ist kein gültiges Anweisungstrennzeichen` → Umgekehrt: Du bist in PowerShell und hast die cmd-Zeile genommen.
 - Etwas mit **„Execution Policy"** → Eine Sicherheitseinstellung mancher Firmenrechner, die PowerShell-Skripte blockiert. Probier in diesem Fall die cmd-Zeile; hilft das nicht, bei der IT nachfragen oder in der Session eine Coachin fragen.
+- **`claude` wird nicht als Befehl erkannt / `command not found`, obwohl die Installation durchlief** → Häufigster Fall, eigener Abschnitt gleich unten.
+
+### Wenn `claude --version` „not in PATH" sagt ( Patricia um Hilfe)
+
+Die Installation hat trotzdem geklappt — dein Terminal weiß nur noch nicht, wo das Programm liegt. Terminals suchen Befehle ausschließlich in einer Liste von Ordnern, dem sogenannten **PATH**. Der Installer trägt seinen Ordner dort ein, aber ein bereits geöffnetes Terminal-Fenster liest diese Liste nicht neu ein.
+
+**Erste Maßnahme (löst es fast immer):** Terminal-Fenster komplett schließen, ein neues öffnen, `claude --version` erneut tippen.
+
+Hilft das nicht, prüfe zuerst, ob das Programm überhaupt da ist — tippe die vollständige Adresse:
+
+| System                | Testbefehl                                    |
+| --------------------- | --------------------------------------------- |
+| Windows (PowerShell)  | `& "$env:USERPROFILE\.local\bin\claude.exe" --version` |
+| Windows (cmd)         | `"%USERPROFILE%\.local\bin\claude.exe" --version` |
+| macOS / Linux         | `~/.local/bin/claude --version`               |
+
+Kommt jetzt eine Versionsnummer, fehlt wirklich nur der PATH-Eintrag:
+
+- **Windows:** Windows-Taste drücken, „Umgebungsvariablen" tippen, **„Umgebungsvariablen für dieses Konto bearbeiten"** öffnen (geht ohne Adminrechte). Oben bei **Path** auf **Bearbeiten** → **Neu** → `%USERPROFILE%\.local\bin` eintragen → mit **OK** bestätigen. Danach ein **neues** Terminal öffnen.
+- **macOS / Linux:** Zeile `export PATH="$HOME/.local/bin:$PATH"` ans Ende der Datei `~/.zshrc` (macOS) bzw. `~/.bashrc` (meist Linux) hängen, Terminal neu öffnen.
+
+*Und wenn auch der vollständige Pfad nichts findet?* Dann ist die Installation tatsächlich schiefgegangen — Befehl aus der Tabelle oben nochmal ausführen und auf Fehlermeldungen achten.
+
+*Merk dir den Pfad, der bei dir funktioniert hat.* In Schritt 7 kann es sein, dass Claudian ihn braucht. Ausgeben lassen kannst du ihn dir jederzeit mit `where claude` (Windows) bzw. `which claude` (Mac/Linux).
 
 *Optional für Windows: Wenn du [Git for Windows](https://git-scm.com/downloads/win) installiert hast, nutzt Claude Code dessen Git Bash und kann Befehle etwas komfortabler ausführen — ohne läuft alles über PowerShell. Nötig ist das nicht, und du kannst es jederzeit nachholen. Wer das optionale Bonus-Kapitel Command Line oder Git machen will, installiert es dort ohnehin (Teil D bzw. E).*
 
@@ -119,10 +154,34 @@ Test, ob's geklappt hat: `claude --version` sollte eine Versionsnummer zeigen.
 
 1. Öffne die **Einstellungen** (Zahnrad-Symbol unten links)
 2. Gehe zu **Externe Erweiterungen** (das ist die deutsche Bezeichnung für „Community plugins")
-3. Falls der **eingeschränkte Modus** noch aktiv ist: einmal auf **Eingeschränkten Modus deaktivieren** klicken (Bestätigung akzeptieren)
+3. Falls der **eingeschränkte Modus** noch aktiv ist: einmal auf `Eingeschränkten Modus verlassen`klicken
 4. Klicke auf **Durchsuchen**, suche nach **„Claudian"**, überprüfe, ob es von - von Yishen Tu ist, klicke auf **Installieren** und danach auf **Aktivieren**
 
-Das war's — Claudian erkennt die in Schritt 5/6 eingerichtete Claude-Code-CLI automatisch, keine weitere Konfiguration nötig.
+In der Regel war's das: Claudian findet die in Schritt 5/6 eingerichtete Claude-Code-CLI von allein.
+
+**Falls Claudian meldet, es finde die CLI nicht:** Das ist dasselbe PATH-Thema wie in Schritt 5 — Obsidian ist ein Fenster-Programm und kennt die Ordner-Liste deines Terminals nicht zwangsläufig.
+
+1. **Obsidian einmal komplett schließen und neu starten.** Wurde der PATH nach dem Obsidian-Start geändert, reicht das oft schon.
+2. Hilft das nicht: Pfad von Hand eintragen. Lass ihn dir im Terminal mit `where claude` (Windows) bzw. `which claude` (Mac/Linux) ausgeben und kopiere die Zeile. Dann in Obsidian: **Einstellungen** → links unter den Erweiterungen **Claudian** → beim Anbieter **Claude** das Feld **CLI path** — Pfad einfügen, fertig.
+
+*Die Claudian-Oberfläche ist auf Englisch, auch wenn Obsidian selbst auf Deutsch läuft — „CLI path" heißt dort also wirklich so.*
+Links in deiner Weekzeugleiste sollte jetzt ein kleiner Roboter erschienen sein.
+
+## Schritt 7b: Web Clipper installieren (optional)
+
+*Für Kapitel 4, Teil 2. Wirklich optional — im Vault liegen unter `Clippings/` zwei fertige Beispiel-Clips, mit denen alle Übungen genauso funktionieren. Wer die Erweiterung nicht installieren kann oder will, verpasst inhaltlich nichts.*
+
+Der **Obsidian Web Clipper** ist eine Browser-Erweiterung von Obsidian selbst: Ein Klick, und ein Artikel landet als saubere Markdown-Notiz mit ausgefüllten Eigenschaften in deinem Vault.
+
+1. [obsidian.md/clipper](https://obsidian.md/clipper) aufrufen und die Version für deinen Browser installieren — es gibt sie für Chrome, Firefox, Safari, Edge, Brave, Arc, Orion und Vivaldi.
+2. Auf das Clipper-Symbol in der Browser-Leiste klicken. Beim ersten Mal fragt er, in welches Vault gespeichert werden soll — den Workshop-Vault auswählen.
+3. Unter **Einstellungen → Allgemein** kannst du den Zielordner festlegen. Standard ist `Clippings/`; genau dort liegen auch die Beispiel-Clips.
+
+Test: Irgendeine Artikelseite öffnen, Clipper-Symbol anklicken, speichern — die Notiz sollte danach in Obsidian unter `Clippings/` auftauchen.
+
+**Adminrechte?** Braucht es normalerweise nicht, Browser-Erweiterungen installiert man im eigenen Benutzerprofil. Auf manchen Firmenrechnern erlaubt die IT allerdings nur freigegebene Erweiterungen — dann erscheint gar kein Installieren-Knopf. Kein Drama: siehe der Hinweis oben, arbeite mit den Beispiel-Clips.
+
+*Voraussetzung ist ein installiertes Obsidian auf demselben Gerät — der Clipper schreibt direkt in dein lokales Vault, es gibt keinen Cloud-Zwischenspeicher und kein Konto.*
 
 ---
 
@@ -134,15 +193,15 @@ Die drei Werkzeuge, mit denen du in Kapitel 5 hauptsächlich arbeitest, sind **s
 
 Öffne **Einstellungen** → **Obsidian-Erweiterungen**. Dort steht eine Liste mit Schaltern; such nach diesen dreien und stell sicher, dass der Schalter jeweils an ist:
 
-| Kern-Plugin   | Wofür (Kapitel 5)                                       |
-| ------------- | -------------------------------------------------------- |
-| **Bases**     | Datenbank-artige Ansichten ohne Abfragesprache            |
-| **Canvas**    | Unendliches Whiteboard für Notizen und Skizzen            |
-| **Templates** | Vorlagen mit fertigem OKF-Frontmatter-Gerüst              |
+| Kern-Plugin  | Wofür (Kapitel 5)                              |
+| ------------ | ---------------------------------------------- |
+| **Basen**    | Datenbank-artige Ansichten ohne Abfragesprache |
+| **Canvas**   | Unendliches Whiteboard für Notizen und Skizzen |
+| **Vorlagen** | Vorlagen mit fertigem OKF-Frontmatter-Gerüst   |
 
 *Schnellcheck ohne Umweg über die Einstellungen: Befehlspalette öffnen (`Strg/Cmd + P`) und den Namen tippen. Erscheinen passende Befehle, ist das Plugin aktiv.*
 
-*Taucht **Bases** gar nicht erst in der Liste auf, ist deine Obsidian-Version zu alt — unter Einstellungen → **Über** die Version prüfen und aktualisieren.*
+*Taucht **Basen** gar nicht erst in der Liste auf, ist deine Obsidian-Version zu alt — unter Einstellungen → **Über** die Version prüfen und aktualisieren.*
 
 ## Schritt 9: Cron installieren (optional)
 
@@ -158,7 +217,7 @@ Eine einzige Externe Erweiterung — Installation genau wie bei Claudian in Schr
 
 # Teil D: Vor dem Bonus-Kapitel Command Line (optional)
 
-*Das Bonus-Kapitel Command Line ist freiwillig — der Pitch dazu kommt in Kapitel 4. Wenn du es nicht machst, überspring diesen Teil komplett.*
+*Das Bonus-Kapitel Command Line ist freiwillig — wenn Du das nicht bearbeiten möchtest, überspring diesen Teil komplett.*
 
 ## Schritt 10: Ein besseres Windows-Terminal
 
@@ -174,9 +233,9 @@ Optional zusätzlich: **Windows Terminal** aus dem Microsoft Store — bündelt 
 
 Für die beiden Spielereien im Bonus-Kapitel — sind reiner Bonus, kein Muss:
 
-| Werkzeug        | Mac/Linux                                          | Windows                                                                                     |
-| --------------- | -------------------------------------------------- | ------------------------------------------------------------------------------------------- |
-| **cowsay**      | `brew install cowsay` / `sudo apt install cowsay` | ohne Adminrechte: `Install-Module -Scope CurrentUser PSCowsay`                                |
+| Werkzeug        | Mac/Linux                                                   | Windows                                                                                                                                            |
+| --------------- | ----------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **cowsay**      | `brew install cowsay` / `sudo apt install cowsay`           | ohne Adminrechte: `Install-Module -Scope CurrentUser PSCowsay`                                                                                     |
 | **ImageMagick** | `brew install imagemagick` / `sudo apt install imagemagick` | ohne Adminrechte: [portable ZIP-Version](https://imagemagick.org/script/download.php#windows) entpacken, `convert.exe` läuft direkt aus dem Ordner |
 
 Blockt die IT auch das: kein Problem, die Spaß-Übungen sind Bonus, der Rest des Kapitels funktioniert ohne sie.
@@ -218,7 +277,8 @@ Damit du Git im Alltag nicht über das Terminal bedienen musst: Einstellungen �
 - [ ] Kurzer Check am Ende von Teil A: „Siehst du die Ordnerstruktur links? Dann ist alles bereit."
 - [ ] Sicherstellen, dass die Beispiel-Notizen im tatsächlichen Vault-Download enthalten sind
 - [ ] Screenshot für Community-Plugin-Suche/Installation
-- [ ] Screenshot/GIF, wie die drei Windows-Terminals (cmd/PowerShell/Windows Terminal) sich optisch unterscheiden
+- [ ] Screenshot/GIF: Zeilenanfang mit und ohne `PS` — woran man PowerShell vs. cmd im geöffneten Fenster erkennt
 - [ ] Testen, ob die Windows-„Execution Policy" bei typischer Workshop-Hardware (Firmenrechner) den Installationsbefehl blockiert
+- [ ] PATH-Problem auf Windows gegenprüfen: Installationsordner (`%USERPROFILE%\.local\bin`?) und ob ein neues Terminal-Fenster wirklich reicht — der Fix ist aus einem Linux-Testfall abgeleitet
 - [ ] Prüfen, ob Claude-Code-Installation + Anmeldung realistisch in die Session-Zeit passt
 - [ ] Teil E ist vorläufig — muss mit `bonus-git/` abgeglichen werden, sobald das Kapitel ausgearbeitet ist

@@ -1,34 +1,29 @@
 # Vaults & Graph-Ansicht
 
-Im Ordner **`notizen/`** liegen bereits fertige Notizen in deinem Vault. Fünf davon (`Obsidian.md`, `Zettelkasten.md`, `Second Brain.md`, `OKF.md`, `KI-Workflow.md`) sind noch fast unverlinkt — diese Verbindungen baust du in diesem Kapitel selbst auf.
+Im Ordner **`notizen/`** liegen bereits fertige Notizen in deinem Vault. Fünf davon (`Obsidian.md`, `Zettelkasten.md`, `Second Brain.md`, `OKF.md`, `KI-Workflow.md`) sind schon teilweise untereinander verlinkt — die letzten drei Verbindungen baust du in diesem Kapitel selbst auf.
 
-*Eine Verbindung ist als Vorlage schon da: Ganz unten in `Zettelkasten.md` steht `Baut die Grundlage für das Prinzip des [[Second Brain]].` Schau sie dir kurz an — so sieht ein Link im Rohtext aus, und genauso legst du gleich deine eigenen an.*
+*So sieht ein Link im Rohtext aus: Ganz unten in `Zettelkasten.md` steht `Baut die Grundlage für das Prinzip des [[Second Brain]].` Schau ihn dir kurz an — genauso legst du gleich deine eigenen an.*
 
 *Der Ordner liegt bewusst außerhalb der Kapitel-Ordner: Die Notizen erklären Begriffe, auf die aus mehreren Kapiteln heraus verlinkt wird, und dienen später auch als Material für Bases, Canvas und die KI-Übungen.*
 
-*`Kundenprojekt-Lotos.md` bleibt hier bewusst unverlinkt und taucht als isolierter Punkt in der Graph-Ansicht auf — kein Fehler, sie wird erst in Kapitel 4 gebraucht.*
-
 ## Kurzer Zwischenstopp: Was ist Frontmatter?
 
-Öffne `Obsidian.md` — ganz oben siehst du einen Block zwischen zwei `---`-Linien mit `type: Tool` drin. Das nennt man [[Frontmatter]] — die verlinkte Beispiel-Notiz erklärt es kurz. Sie ist übrigens gleich dein erstes Beispiel dafür, wie Verlinkung in diesem Vault funktioniert.
+Wenn Du  `strg` gedrückt hälst und dann auf einen Links klickst, öffnet ihn Obsidian in einem zweiten Tab. Öffne die Notiz [[Obsidian]] als zweiten Tab — ganz oben siehst du einen Block zwischen zwei `---`-Linien mit `type: Tool` drin. Das nennt man [[Frontmatter]] — die verlinkte Beispiel-Notiz erklärt es kurz. Sie ist übrigens gleich dein erstes Beispiel dafür, wie Verlinkung in diesem Vault funktioniert.
 
 ## 1. Was ist ein Vault
 
 Ein Vault ist einfach ein Ordner auf der Festplatte, den Obsidian als „Notiz-Sammlung" erkennt — der Ordner, den du bei der Installation schon heruntergeladen und geöffnet hast. Keine Cloud, keine Magie dahinter.
 
-**Übung:** Öffne die Vault-Einstellungen und schau, welcher Pfad dahinter liegt.
-
-## 2. Verlinkung mit [[doppelten eckigen Klammern]]
+## 2. `Verlinkung mit [[doppelten eckigen Klammern]]`
 
 Tippst du `[[`, schlägt Obsidian automatisch bestehende Notizen zum Verlinken vor. Verlinkst du eine Notiz, die noch nicht existiert, legt Obsidian sie automatisch an.
 
-**Übung:** In `Zettelkasten.md` findest du bereits einen fertigen Link zu `Second Brain.md` als Beispiel, wie das aussehen soll. Verlinke die restlichen Notizen gemäß dieser Vorgabe:
+**Übung:** Die meisten Notizen sind schon untereinander verlinkt (`Zettelkasten.md` → `Second Brain.md` → `OKF.md` → `Obsidian.md`). Es fehlen genau drei Links — die setzt du selbst:
 
-- `Obsidian.md` → `Zettelkasten.md`, `Second Brain.md`
-- ~~`Zettelkasten.md` → `Second Brain.md`~~ *(schon vorhanden — als Beispiel)*
-- `Second Brain.md` → `OKF.md`
-- `OKF.md` → `Obsidian.md` (Rückverlinkung!)
-- `KI-Workflow.md` → `OKF.md`, `Obsidian.md`
+- `Obsidian.md` → `Zettelkasten.md` und `Second Brain.md` (zwei Links in einem Satz)
+- `KI-Workflow.md` → `Obsidian.md` (Rückverlinkung!)
+
+Schreib die Links in einen ganzen Satz, nicht als nackte Klammern — z. B. „Baut auf der Methode des [[Zettelkasten]] auf."
 
 ## 3. Graph-Ansicht
 

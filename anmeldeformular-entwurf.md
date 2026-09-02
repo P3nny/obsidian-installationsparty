@@ -39,14 +39,14 @@ _(Entwurf zum Copy-Paste in CryptPad-Formular oder ein vergleichbares Tool)_
 
 - Installation (Obsidian & Vault einrichten)
 - 01 – Obsidian & Markdown Grundlagen
-- 02 – Vaults & Graph-Ansicht
-- 03 – OKF-Format (Wissensmanagement-Struktur)
-- 04 – Power-Usecase (Dataview, Canvas, Templates, Cron)
-- 05 – Command Line
-- 06 – KI-Erweiterung
-- 07 – Workflow: Notizen zu OKF
-- 08 – Second-Brain-Übung
-- 09 – Vergleich verschiedener KI-Setups
+- 02 – Sync auf mehreren Geräten
+- 03 – Vaults & Graph-Ansicht
+- 04 – KI-Second-Brain: Claudian einrichten & mit dem Vault chatten
+- 04 – KI-Second-Brain: Web Clipper, Artikel ins Vault holen
+- 04 – KI-Second-Brain: Notizen von der KI verdichten und verlinken lassen
+- 05 – Power-Usecase (Bases, Canvas, Templates, Cron)
+- OKF-Format (Wissensmanagement-Struktur)
+- Bonus – Command Line
 - Bonus – Git
 
 **8. Nutzt du bereits ein eigenes Obsidian- und/oder Claude-Setup und hättest Lust, in deiner Breakout-Gruppe als Co-Coachin/Mentorin mit auszuhelfen?** _(Einfachauswahl)_

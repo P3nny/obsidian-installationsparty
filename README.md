@@ -6,7 +6,7 @@ Schritt für Schritt zum eigenen Second Brain — mit Obsidian, Markdown, Open K
 
 ## Worum geht's?
 
-Dieses Repository ist das Begleitmaterial zu einer "Obsidian Installationsparty" — einem Workshop, in dem wir gemeinsam ein persönliches, KI-gestütztes Wissenssystem aufbauen: von der Installation von Obsidian über Markdown-Grundlagen bis zu einem Workflow, der unstrukturierte Notizen mithilfe von KI (Claude bzw. GitHub Copilot) in ein strukturiertes Format bringt.
+Dieses Repository ist das Begleitmaterial zu einer "Obsidian Installationsparty" — einem Workshop, in dem wir gemeinsam ein persönliches, KI-gestütztes Wissenssystem aufbauen: von der Installation von Obsidian über Markdown-Grundlagen bis zu einem Kreislauf, in dem Claude rohe Notizen und geclippte Artikel zu verknüpftem, wiederauffindbarem Wissen verdichtet.
 
 Der Workshop ist Teil eines größeren Vorhabens: Frauen genug Data- und Coding-Literacy zu vermitteln, damit sie die KI-Transformation aktiv mitgestalten können. Dieses Repo ist der erste öffentliche Baustein davon.
 
@@ -24,11 +24,10 @@ Vorausgesetzt wird nichts außer einem eigenen Laptop und Neugier.
 - **Graph-Ansicht** — wie aus verlinkten Notizen ein sichtbares Wissensnetz wird
 - **Sync** — welche Wege es gibt, den Vault auf mehreren Geräten aktuell zu halten
 - Installation der KI-Erweiterung **Claudian** samt Claude Code CLI
-- Ein **KI-Workflow**, der unstrukturierte Notizen automatisch ins OKF-Format bringt
-- Eine Übung, wie du dein Vault als **Second Brain** im Alltag nutzt
-- Eine Einordnung: **Vorteile dieses Setups** (Obsidian/Markdown + KI) gegenüber anderen KI-Setups
--  Ein Beispiel für einen **Obsidian-Power-Usecase** (Bases, Canvas, Templates, Cron)
-- Open Knowledge Format (OKF)** — ein leichtgewichtiges Format, um Notizen mit Struktur, Herkunft und Vertrauensstatus zu versehen
+- **Web Clipper** — Artikel aus dem Browser als fertig formatierte Notiz ins Vault holen
+- Der **Second-Brain-Kreislauf**: roh reinwerfen, von der KI verdichten und verlinken lassen, per Frage wiederfinden
+- Ein **Obsidian-Power-Usecase** (Bases, Canvas, Templates, Cron)
+- **Open Knowledge Format (OKF)** — ein leichtgewichtiges Format, um Notizen mit Struktur, Herkunft und Vertrauensstatus zu versehen
 - **Bonus:** Grundlagen der Command Line — genug, um sich sicher zu bewegen
 - **Bonus:** Git-Grundlagen — was es ist, wofür man es braucht, erster Commit und Push mit dem eigenen Vault als Repo
 
@@ -53,12 +52,12 @@ Auch wenn du nicht live dabei bist: Das Material hier ist so geschrieben, dass e
 01-obsidian-und-markdown/     Grundlagen + Markdown-Cheatsheet
 02-sync-mehrere-geraete/      Vault auf mehreren Geräten
 03-vaults-und-graph-view/     Vaults, Verlinkung, Graph-Ansicht
-04-ki-erweiterung/            Claudian-Setup, Workflow zu OKF, Second-Brain-Übung, Vergleich
+04-ki-second-brain/           Claudian-Setup, Web Clipper, Verdichten & Wiederfinden, OKF
 05-power-usecase/             Bases, Canvas, Templates, Cron
-06-okf-format/                Vertiefung Open Knowledge Format (optional)
 bonus-command-line/           Command-Line-Grundlagen (freiwillig)
 bonus-git/                    Git-Grundlagen + Plugin „Obsidian Git" (freiwillig)
 notizen/                      Erklärende Notizen zu Begriffen — zugleich Übungsmaterial
+Clippings/                    Beispiel-Clips aus dem Web Clipper — Rohmaterial für Kapitel 4
 ```
 
 Der Ordner `notizen/` ist bewusst kein Kapitel: Dort stehen kurze Notizen zu Begriffen wie Vault, Markdown oder Frontmatter, auf die aus den Kapiteln heraus verlinkt wird. Sie dienen gleichzeitig als Übungsmaterial für Graph-Ansicht, Bases, Canvas und die KI-Übungen — das Material erklärt seine Konzepte also mit genau dem Mittel, um das es geht.
@@ -68,12 +67,12 @@ Die Anleitung in `00-installation.md` ist so aufgeteilt, dass du immer nur das e
 | Teil | Wann | Werkzeug |
 | ---- | ---- | -------- |
 | A | vor Kapitel 1 | Obsidian, Vault herunterladen und öffnen |
-| B | vor Kapitel 4 | Terminal, Claude Code CLI, Claude-Zugang, Claudian |
+| B | vor Kapitel 4 | Terminal, Claude Code CLI, Claude-Zugang, Claudian, optional Web Clipper |
 | C | vor Kapitel 5 | Kern-Plugins prüfen (Bases, Canvas, Templates), optional Cron |
 | D | vor Bonus Command Line (optional) | ggf. besseres Windows-Terminal, cowsay, ImageMagick |
 | E | vor Bonus Git (optional) | Git, GitHub-Konto, Erweiterung „Obsidian Git" |
 
-Die Kapitel 2, 3 und 6 brauchen nichts zusätzlich.
+Die Kapitel 2 und 3 brauchen nichts zusätzlich.
 
 ## Herkunft & Community
 
