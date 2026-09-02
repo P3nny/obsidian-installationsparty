@@ -1,18 +1,20 @@
 # Obsidian auf mehreren Geräten synchronisieren
 
-Dein Vault ist bisher nur auf einem Rechner. Wenn du auch am Handy oder einem zweiten Rechner darauf zugreifen willst, brauchst du eine Sync-Lösung. Drei Wege, sortiert von einfach nach anspruchsvoll:
+Dein Vault ist bisher nur auf einem Rechner. Wenn du auch am Handy oder einem zweiten Rechner darauf zugreifen willst, brauchst du eine Sync-Lösung. Und: Kein backup, kein Mitleid. Wenn jahrelange Notizen als Markdown-Dateien nur auf deinem Rechner leben, ist im schlimmsten Fall alles weg, wenn dein Rechner runterfällt. 
+
+Für Synchronisierung und Backup git es drei Wege, sortiert von einfach nach anspruchsvoll:
 
 ## Option 1: Obsidian Sync (offizieller Dienst)
 
-Der von den Obsidian-Entwicklern selbst angebotene Sync-Dienst.
+Der von den Obsidian-Entwicklern selbst angebotene [Sync-Dienst](https://obsidian.md/sync).
 
 **Einrichtung:** Einstellungen → **Sync** → Konto erstellen/einloggen → Vault auswählen → Sync aktivieren. Auf dem zweiten Gerät: Obsidian installieren, mit demselben Konto einloggen, Vault aus der Liste auswählen.
 
-| Vorteile | Nachteile |
-|---|---|
-| Am einfachsten einzurichten, wenige Klicks | Kostenpflichtig (Abo) |
+| Vorteile                                                | Nachteile                                             |
+| ------------------------------------------------------- | ----------------------------------------------------- |
+| Am einfachsten einzurichten, wenige Klicks              | Kostenpflichtig (Abo) - 4 Dollar im Monat             |
 | Von den Obsidian-Machern selbst betrieben, gut getestet | Zusätzliche Kosten neben einem eventuellen Claude-Abo |
-| Versionsverlauf inklusive | — |
+| Versionsverlauf inklusive                               | —                                                     |
 
 ## Option 2: iCloud / Google Drive / OneDrive
 

@@ -1,6 +1,6 @@
 # Bonus: Git
 
-*Voraussetzung: Git ist installiert (Vorbereitung, Teil E). Die Grundlagen aus dem Bonus-Kapitel Command Line helfen, sind aber kein Muss — jeder Befehl steht hier zum Kopieren.*
+*Voraussetzung: Git ist installiert (Installation, Teil E). Die Grundlagen aus dem Bonus-Kapitel Command Line helfen, sind aber kein Muss — jeder Befehl steht hier zum Kopieren.*
 
 ## Was ist Git — und warum kennt es jede Entwicklerin?
 

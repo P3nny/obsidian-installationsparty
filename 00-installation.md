@@ -1,4 +1,6 @@
-## Worum geht's in diesem Kapitel?
+# Installation
+
+## Worum geht's hier?
 
 Du installierst nicht alles auf einmal, sondern immer genau das, was das nächste Kapitel braucht. Für den Start reichen zwei Dinge:
 
@@ -9,7 +11,7 @@ Danach liegen alle weiteren Kapitel bereits im Vault vor dir. Die restlichen Wer
 
 ## Was wird wann gebraucht?
 
-| Kapitel                          | Werkzeug                                                        | Vorbereitung |
+| Kapitel                          | Werkzeug                                                        | Teil         |
 | -------------------------------- | --------------------------------------------------------------- | ------------ |
 | `01-obsidian-und-markdown/`      | Obsidian + Vault                                                  | **Teil A**   |
 | `02-sync-mehrere-geraete/`       | nichts — hier wird nur verglichen und entschieden                 | —            |
@@ -136,7 +138,7 @@ Die drei Werkzeuge, mit denen du in Kapitel 5 hauptsächlich arbeitest, sind **s
 | ------------- | -------------------------------------------------------- |
 | **Bases**     | Datenbank-artige Ansichten ohne Abfragesprache            |
 | **Canvas**    | Unendliches Whiteboard für Notizen und Skizzen            |
-| **Templates** | Vorlagen mit fertigem OKF-[[Frontmatter]]-Gerüst          |
+| **Templates** | Vorlagen mit fertigem OKF-Frontmatter-Gerüst              |
 
 *Schnellcheck ohne Umweg über die Einstellungen: Befehlspalette öffnen (`Strg/Cmd + P`) und den Namen tippen. Erscheinen passende Befehle, ist das Plugin aktiv.*
 

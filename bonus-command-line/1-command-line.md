@@ -31,7 +31,7 @@ $PSVersionTable.PSVersion
 - Kommt eine **Versionsnummer** zurück → du bist in **PowerShell**. Die meisten Befehle in diesem Kapitel funktionieren hier mit der Windows-Spalte aus den Tabellen unten.
 - Kommt eine **Fehlermeldung** (etwa „wird nicht als Name eines Cmdlets erkannt") → du bist in **cmd / Eingabeaufforderung**, der einfachsten Variante.
 
-Falls du in Schritt 10 der Vorbereitung schon **Git Bash** installiert hast: Öffne stattdessen dieses Terminal — dort funktionieren alle Befehle in diesem Kapitel exakt wie auf Mac/Linux beschrieben, ganz ohne Umweg über PowerShell-Alternativen.
+Falls du in Schritt 10 der Installation schon **Git Bash** installiert hast: Öffne stattdessen dieses Terminal — dort funktionieren alle Befehle in diesem Kapitel exakt wie auf Mac/Linux beschrieben, ganz ohne Umweg über PowerShell-Alternativen.
 
 ## Erste Schritte
 
@@ -97,7 +97,7 @@ Die Command Line kann weit mehr als Ordner verschieben. Hier drei kleine, greifb
 **Installation:**
 - macOS (mit Homebrew): `brew install cowsay`
 - Linux: `sudo apt install cowsay`
-- Windows mit Git Bash (aus Vorbereitung Schritt 10): wie Linux, oder falls dort nicht vorhanden, per PowerShell-Modul (siehe unten)
+- Windows mit Git Bash (aus Installation, Schritt 10): wie Linux, oder falls dort nicht vorhanden, per PowerShell-Modul (siehe unten)
 - Windows ohne Adminrechte: PowerShell-Modul ohne Zusatzrechte installieren: `Install-Module -Scope CurrentUser PSCowsay`, danach `Get-Cow "Hallo Workshop!"` statt der `echo | cowsay`-Pipe unten
 
 **Übung (Mac/Linux/Git Bash):**

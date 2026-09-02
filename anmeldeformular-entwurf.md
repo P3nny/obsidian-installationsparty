@@ -37,7 +37,7 @@ _(Entwurf zum Copy-Paste in CryptPad-Formular oder ein vergleichbares Tool)_
 
 **7. Welche Themen interessieren dich am meisten?** _(Mehrfachauswahl)_
 
-- 00 – Vorbereitung (Obsidian & Vault einrichten)
+- Installation (Obsidian & Vault einrichten)
 - 01 – Obsidian & Markdown Grundlagen
 - 02 – Vaults & Graph-Ansicht
 - 03 – OKF-Format (Wissensmanagement-Struktur)

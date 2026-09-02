@@ -21,3 +21,5 @@ Reine Referenz zum Nachschlagen — keine Übung. Die wichtigsten Grundlagen rei
 ## Weiterführend
 
 Für alles darüber hinaus (Fußnoten, verschachtelte Listen, Escape-Zeichen, HTML in Markdown): [markdownguide.org/cheat-sheet](https://www.markdownguide.org/cheat-sheet/) — kompakt, kostenlos, ohne Anmeldung.
+
+Zurück zum Kapitel: [[1-obsidian-grundlagen|Obsidian Grundlagen]]. 

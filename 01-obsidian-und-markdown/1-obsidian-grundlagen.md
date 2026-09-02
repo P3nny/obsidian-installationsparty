@@ -6,7 +6,9 @@ Obsidian speichert deine Notizen als einfache [[Markdown]]-Dateien auf deinem ei
 
 Konzeptionell ist Obsidian die praktische Umsetzung des **Zettelkasten-Prinzips**, wie es der Soziologe Niklas Luhmann für sein wissenschaftliches Arbeiten entwickelt hat: viele kleine, atomare Notizen, die untereinander verlinkt sind, statt einer starren Ordnerhierarchie. Aus dieser Vernetzung entstehen mit der Zeit unerwartete Verbindungen zwischen Ideen — deshalb wird Obsidian bis heute viel im wissenschaftlichen Arbeiten eingesetzt.
 
-**Übung:** Öffne Obsidian und schau dir an, wo deine Notizen als Dateien auf deiner Festplatte liegen.
+**Tipps zu den Übungen findest Du unter [[#Auflösungen]]**
+
+**Übung:** Öffne Obsidian und schau dir parallel dazu auf deiner Festplatte an, wo die Dateien darin liegen. 
 
 ## 2. Die Oberfläche
 
@@ -16,7 +18,7 @@ Seitenleiste, Editor-Fenster, Tabs, Befehlspalette — das sind die vier Bereich
 
 ## 3. Notizen verwalten
 
-**Übung:** Lege selbst eine neue Notiz an, benenne sie um und verschiebe sie in einen Unterordner.
+**Übung:** Falls Du das noch nicht gemacht hast, schau Dir die Notiz zu [[Markdown]] an. Lege selbst eine neue Notiz an, benenne sie um und verschiebe sie in einen Unterordner. Eine Übersicht zu Markdown findest du hier:  [[2-cheatsheet-markdown]]
 
 ## 4. Ansichtsmodi
 
@@ -24,11 +26,13 @@ Obsidian kennt drei Modi: Live-Vorschau (Standard, zeigt Formatierung direkt), Q
 
 **Übung:** Wechsle bei einer Notiz mit etwas Formatierung zwischen allen drei Modi.
 
+Der Umschalter oben rechts kennt nur Bearbeiten und Lesen. Zwischen Live-Vorschau und Quellcode-Ansicht wechselst du pro Notiz über die Befehlspalette (`Cmd/Ctrl+P`) → „Quellcode-Ansicht umschalten".
+
 ## 5. Ordner vs. Tags
 
 Zwei Organisationsformen, die sich ergänzen: Ordner geben eine feste Struktur vor, Tags erlauben, eine Notiz mehreren Themen gleichzeitig zuzuordnen.
 
-**Übung:** Vergib einen Tag an deine neue Notiz, statt sie in einen Ordner zu legen.
+**Übung:** Vergib einen #Tag an deine neue Notiz, statt sie in einen Ordner zu legen.
 
 ## 6. Plugins – ein Ausblick
 
@@ -46,6 +50,6 @@ Die Obsidian-Community ist ungewöhnlich aktiv und hat für fast jeden Anwendung
 
 3. **Notizen verwalten:** Neue Notiz über das Stift-Symbol oder `Cmd/Ctrl+N`. Umbenennen per Rechtsklick auf die Notiz → „Umbenennen". Verschieben per Drag & Drop in der Seitenleiste oder Rechtsklick → „Verschieben nach".
 
-4. **Ansichtsmodi:** Den Umschalter findest du oben rechts in der Notiz (Stift-/Buch-Symbol), alternativ `Cmd/Ctrl+E` zum Wechseln zwischen Bearbeiten und Lesen. Die Quellcode-Ansicht aktivierst du zusätzlich über das Drei-Punkte-Menü → „Quellcode-Ansicht umschalten".
+4. **Ansichtsmodi:** Den Umschalter findest du oben rechts in der Notiz (Stift-/Buch-Symbol), alternativ `Cmd/Ctrl+E` zum Wechseln zwischen Bearbeiten und Lesen. Zwischen Live-Vorschau und Quellcode-Ansicht wechselst du für die aktuelle Notiz über die Befehlspalette (`Cmd/Ctrl+P`) → „Quellcode-Ansicht umschalten"; dauerhaft stellst du das unter Einstellungen → Editor → „Standard-Bearbeitungsmodus" ein. Woran du erkennst, wo du bist: Im Lesemodus lässt sich kein Cursor setzen, in der Live-Vorschau siehst du die Markdown-Zeichen (`**`, `##`) nur in der Zeile mit dem Cursor, in der Quellcode-Ansicht in allen Zeilen.
 
 5. **Ordner vs. Tags:** Ein Tag entsteht einfach durch `#` direkt im Notiztext, z. B. `#beispiel`. Er erscheint danach automatisch in der Tags-Übersicht in der Seitenleiste.

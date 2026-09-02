@@ -44,12 +44,12 @@ Auch wenn du nicht live dabei bist: Das Material hier ist so geschrieben, dass e
 2. Lade dieses gesamte Repository herunter (`Code` → `Download ZIP`, oder `git clone`, falls du das schon kannst)
 3. Öffne den heruntergeladenen Ordner in Obsidian als Vault („Ordner als Vault öffnen")
 4. Du findest darin eine vorbereitete Struktur mit Beispielen, Übungen und Referenzmaterial zum Nachschlagen — leg direkt los, oder folge der Reihenfolge der Kapitel
-5. Weitere Werkzeuge installierst du erst, wenn du beim jeweiligen Kapitel angekommen bist — die Übersicht dazu steht in `00-vorbereitung/`
+5. Weitere Werkzeuge installierst du erst, wenn du beim jeweiligen Kapitel angekommen bist — die Übersicht dazu steht in `00-installation.md`
 
 ## Struktur dieses Repos
 
 ```
-00-vorbereitung/              Installation, gestaffelt entlang der Kapitel
+00-installation.md            Installation, gestaffelt entlang der Kapitel
 01-obsidian-und-markdown/     Grundlagen + Markdown-Cheatsheet
 02-sync-mehrere-geraete/      Vault auf mehreren Geräten
 03-vaults-und-graph-view/     Vaults, Verlinkung, Graph-Ansicht
@@ -63,7 +63,7 @@ notizen/                      Erklärende Notizen zu Begriffen — zugleich Übu
 
 Der Ordner `notizen/` ist bewusst kein Kapitel: Dort stehen kurze Notizen zu Begriffen wie Vault, Markdown oder Frontmatter, auf die aus den Kapiteln heraus verlinkt wird. Sie dienen gleichzeitig als Übungsmaterial für Graph-Ansicht, Bases, Canvas und die KI-Übungen — das Material erklärt seine Konzepte also mit genau dem Mittel, um das es geht.
 
-Die Installation in `00-vorbereitung/` ist so aufgeteilt, dass du immer nur das einrichtest, was das nächste Kapitel tatsächlich braucht:
+Die Anleitung in `00-installation.md` ist so aufgeteilt, dass du immer nur das einrichtest, was das nächste Kapitel tatsächlich braucht:
 
 | Teil | Wann | Werkzeug |
 | ---- | ---- | -------- |

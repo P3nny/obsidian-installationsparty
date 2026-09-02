@@ -14,7 +14,7 @@ Im Ordner **`notizen/`** liegen bereits fertige Notizen in deinem Vault. Fünf d
 
 ## 1. Was ist ein Vault
 
-Ein Vault ist einfach ein Ordner auf der Festplatte, den Obsidian als „Notiz-Sammlung" erkennt — der Ordner, den du in der Vorbereitung schon heruntergeladen und geöffnet hast. Keine Cloud, keine Magie dahinter.
+Ein Vault ist einfach ein Ordner auf der Festplatte, den Obsidian als „Notiz-Sammlung" erkennt — der Ordner, den du bei der Installation schon heruntergeladen und geöffnet hast. Keine Cloud, keine Magie dahinter.
 
 **Übung:** Öffne die Vault-Einstellungen und schau, welcher Pfad dahinter liegt.
 

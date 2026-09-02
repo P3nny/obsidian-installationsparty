@@ -16,3 +16,5 @@ Der Clou: Eine Markdown-Datei bleibt eine ganz normale Textdatei. Du kannst sie 
 | `` `Text` ``     | `Code`                  |
 
 Erfunden 2004 von John Gruber, heute überall zu finden: GitHub, Reddit, Discord, Notion, WhatsApp (in Teilen) — und eben [[Obsidian]]. Das [[Frontmatter]] am Anfang dieser Notiz ist eine verbreitete Erweiterung davon.
+
+Zurück zum Kapitel: [[1-obsidian-grundlagen|Obsidian Grundlagen]]. Zum Nachschlagen: [[2-cheatsheet-markdown|Markdown Cheatsheet]].

@@ -7,7 +7,7 @@ Live-Workshop (Zoom + Breakout-Rooms) für eine technisch heterogene, überwiege
 ## Aktuelle Struktur (Stand: siehe Ordner)
 
 ```
-00-vorbereitung/        Installation, gestaffelt entlang der Kapitel-Ordner: A=Obsidian+Vault (vor Kap. 1), B=Terminal/Claude-Code-CLI/Claudian (vor Kap. 4), C=Kern-Plugins prüfen + optional Cron (vor Kap. 5), D=Command-Line-Werkzeuge (optional), E=Git (optional)
+00-installation.md      (im Root, nicht in einem Kapitel-Ordner) Gestaffelt entlang der Kapitel-Ordner: A=Obsidian+Vault (vor Kap. 1), B=Terminal/Claude-Code-CLI/Claudian (vor Kap. 4), C=Kern-Plugins prüfen + optional Cron (vor Kap. 5), D=Command-Line-Werkzeuge (optional), E=Git (optional)
 01-obsidian-und-markdown/
 02-sync-mehrere-geraete/
 03-vaults-und-graph-view/
@@ -52,6 +52,6 @@ Bei externen Quellen (Blogposts, Doku): paraphrasieren, nicht wörtlich überneh
 ## Offene Punkte (siehe auch „Offene Punkte"-Listen in den einzelnen Dateien)
 
 - `bonus-git/1-git.md` ausgearbeitet (Videospiel-Speicherpunkt-Analogie, eigenes Repo, Auth über Git Credential Manager / `gh`, PAT nur als Notfall, danach Plugin „Obsidian Git"). Offene Punkte stehen in der Datei.
-- Diverse Screenshots/GIFs noch nicht erstellt (in `00-vorbereitung.md` gelistet).
-- Zeitbudget für Teil A der Vorbereitung nur grob geschätzt, nicht live getestet.
+- Diverse Screenshots/GIFs noch nicht erstellt (in `00-installation.md` gelistet).
+- Zeitbudget für Teil A der Installation nur grob geschätzt, nicht live getestet.
 - Frontmatter-Verlinkung als Pilot eingeführt — bei Bedarf auf weitere Begriffe ausweiten (z. B. Vault, Terminal, Agentische KI als eigene Konzept-Notizen).
