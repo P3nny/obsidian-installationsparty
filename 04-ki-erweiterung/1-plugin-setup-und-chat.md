@@ -85,7 +85,7 @@ Bisher hast du gefragt, Claudian hat im Vault gesucht und geantwortet — reiner
 
 > „Leg eine neue Notiz `Terminal-Test.md` an, mit `type: Test` im Frontmatter und einem Satz Inhalt."
 
-Schau in der Dateiliste nach — die Notiz ist wirklich da, ganz ohne dass du selbst geklickt oder getippt hast. Genau das unterscheidet eine **agentische KI** von einem gewöhnlichen Chatbot:
+Schau in der Dateiliste nach — die Notiz ist wirklich da, ganz ohne dass du selbst geklickt oder getippt hast. Genau das unterscheidet eine [[Agentische KI|agentische KI]] von einem gewöhnlichen Chatbot:
 
 | | Chatbot | Agentische KI |
 |---|---|---|

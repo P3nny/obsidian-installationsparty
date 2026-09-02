@@ -2,7 +2,7 @@
 
 ## 1. Was ist Obsidian
 
-Obsidian speichert deine Notizen als einfache Markdown-Dateien auf deinem eigenen Rechner — kein Account, kein Cloud-Zwang, du bleibst Herrin deiner Daten.
+Obsidian speichert deine Notizen als einfache [[Markdown]]-Dateien auf deinem eigenen Rechner — kein Account, kein Cloud-Zwang, du bleibst Herrin deiner Daten.
 
 Konzeptionell ist Obsidian die praktische Umsetzung des **Zettelkasten-Prinzips**, wie es der Soziologe Niklas Luhmann für sein wissenschaftliches Arbeiten entwickelt hat: viele kleine, atomare Notizen, die untereinander verlinkt sind, statt einer starren Ordnerhierarchie. Aus dieser Vernetzung entstehen mit der Zeit unerwartete Verbindungen zwischen Ideen — deshalb wird Obsidian bis heute viel im wissenschaftlichen Arbeiten eingesetzt.
 

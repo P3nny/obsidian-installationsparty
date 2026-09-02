@@ -1,5 +1,3 @@
-# 00 – Vorbereitung
-
 ## Worum geht's in diesem Kapitel?
 
 Du installierst nicht alles auf einmal, sondern immer genau das, was das nächste Kapitel braucht. Für den Start reichen zwei Dinge:
@@ -20,7 +18,7 @@ Danach liegen alle weiteren Kapitel bereits im Vault vor dir. Die restlichen Wer
 | `05-power-usecase/`              | Bases, Canvas, Templates (alle nativ) — optional Cron              | **Teil C**   |
 | `06-okf-format/`                 | nichts — reine Vertiefung                                         | —            |
 | `bonus-command-line/` (optional) | ggf. besseres Windows-Terminal, cowsay, ImageMagick               | **Teil D**   |
-| `bonus-git/` (optional)          | Git                                                               | **Teil E**   |
+| `bonus-git/` (optional)          | Git + GitHub-Konto, Erweiterung „Obsidian Git"                    | **Teil E**   |
 
 Nur **Teil A** ist Pflicht, bevor es losgeht. Alles andere kommt zum passenden Zeitpunkt in der Session.
 
@@ -192,6 +190,22 @@ Blockt die IT auch das: kein Problem, die Spaß-Übungen sind Bonus, der Rest de
 - **Linux:** `sudo apt install git` (oder das Äquivalent deiner Distribution)
 
 Test: `git --version` sollte eine Versionsnummer zeigen.
+
+## Schritt 13: GitHub-Konto anlegen
+
+Um deinen Vault ins Netz zu laden, brauchst du ein Konto bei einem Git-Dienst. Wir nutzen **GitHub** — ein kostenloses Konto reicht völlig, auch für private Repositories.
+
+1. [github.com](https://github.com) aufrufen, **Sign up**
+2. Mit E-Mail-Adresse registrieren, Benutzernamen wählen, Passwort im Passwort-Manager speichern
+3. E-Mail-Adresse bestätigen
+
+*Hast du schon ein GitHub-Konto, ist hier nichts zu tun. Wie du dich beim ersten `git push` anmeldest, klärt das Bonus-Kapitel Git — dein normales Konto-Passwort funktioniert dafür nämlich nicht.*
+
+## Schritt 14: Erweiterung „Obsidian Git" installieren
+
+Damit du Git im Alltag nicht über das Terminal bedienen musst: Einstellungen → **Externe Erweiterungen** → **Durchsuchen** → nach **„Obsidian Git"** suchen, installieren, aktivieren.
+
+*Die Einrichtung im Kapitel läuft trotzdem einmal von Hand durch — verstehen, was passiert, bevor es ein Knopf übernimmt.*
 
 ---
 

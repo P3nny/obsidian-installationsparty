@@ -27,7 +27,9 @@ Deinen Vault-Ordner einfach in einen bereits vorhandenen Cloud-Ordner legen (ode
 
 ## Option 3: Git
 
-Dein Vault ist technisch gesehen sowieso schon ein Git-Repository — genau wie das Workshop-Repo, das du in der Vorbereitung heruntergeladen hast. Damit lässt sich derselbe Mechanismus auch für den eigenen, wachsenden Vault nutzen: Änderungen committen, auf ein Remote-Repository pushen, auf dem zweiten Gerät pullen.
+Dein Vault ist ein ganz normaler Ordner mit Textdateien — und genau damit arbeitet Git am liebsten. Mit einem einzigen Befehl wird daraus ein Git-Repository, und du kannst denselben Mechanismus nutzen, mit dem auch dieses Workshop-Material verwaltet wird: Änderungen committen, auf ein Remote-Repository pushen, auf dem zweiten Gerät pullen.
+
+Im Alltag musst du dafür kein Terminal öffnen — die Externe Erweiterung **Obsidian Git** erledigt das per Befehl oder automatisch im Hintergrund.
 
 **Vorteile:** kostenlos, vollständiger Versionsverlauf jeder einzelnen Änderung, keine Abhängigkeit von einem bestimmten Cloud-Anbieter.
 

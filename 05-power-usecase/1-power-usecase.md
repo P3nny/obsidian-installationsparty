@@ -8,14 +8,14 @@ Genau dasselbe Prinzip steckt auch in den Obsidian-eigenen Power-Features dieses
 
 ## Rahmenerzählung
 
-Stell dir vor, die Notizen aus Kapitel 3 (`Obsidian`, `Zettelkasten`, `Second Brain`, `OKF`, `KI-Workflow`) sind Teil der Wissensbasis einer Solo-Beraterin. Sie nutzt sie, um Konzepte für Kundinnen nachzuschlagen und wiederzuverwenden — will aber auf einen Blick sehen, welche Notizen noch unfertig sind, bevor sie in ein Angebot einfließen.
+Stell dir vor, die fünf Notizen aus dem Ordner `notizen/` (`Obsidian`, `Zettelkasten`, `Second Brain`, `OKF`, `KI-Workflow`) sind Teil der Wissensbasis einer Solo-Beraterin. Sie nutzt sie, um Konzepte für Kundinnen nachzuschlagen und wiederzuverwenden — will aber auf einen Blick sehen, welche Notizen noch unfertig sind, bevor sie in ein Angebot einfließen.
 
 ## Feature 1: Bases — Datenbank-Ansichten ohne Abfragesprache
 
 **Bases** ist eine in Obsidian eingebaute Funktion (kein Plugin, keine Installation nötig), mit der du Notizen nach [[Frontmatter]]-Feldern filtern, sortieren und als Tabelle anzeigen kannst — komplett über Klick-Oberfläche, ganz ohne eigene Abfragesprache zu lernen.
 
 **Übung:**
-1. Ergänze bei den 5 Notizen aus Kapitel 3 ein `status`-Feld im Frontmatter (`draft` oder `stable`) — frei nach eigener Einschätzung.
+1. Ergänze bei diesen fünf Notizen ein `status`-Feld im Frontmatter (`draft` oder `stable`) — frei nach eigener Einschätzung.
 2. Erstelle eine neue Base, filtere auf `status = draft`.
 3. Erweitere die Ansicht um eine zweite Spalte: `type` neben `status`.
 
@@ -25,7 +25,7 @@ Stell dir vor, die Notizen aus Kapitel 3 (`Obsidian`, `Zettelkasten`, `Second Br
 
 Obsidians eingebautes „unendliches Whiteboard": Notizen, Text-Karten, Bilder oder Web-Links frei auf einer 2D-Fläche platzieren und händisch mit Pfeilen verbinden. Anders als der Graph View (automatisch aus Links berechnet) ist Canvas manuell und räumlich — gut für Brainstorming oder um einen Workflow zu skizzieren.
 
-**Mini-Übung:** Lege ein Canvas an, ziehe die fünf Notizen aus Kapitel 3 als Karten hinein und ergänze eine Freitext-Karte mit einem Kommentar — z. B. so, wie du das eigene Wissenssystem einer Kundin präsentieren würdest.
+**Mini-Übung:** Lege ein Canvas an, ziehe die fünf Notizen aus `notizen/` als Karten hinein und ergänze eine Freitext-Karte mit einem Kommentar — z. B. so, wie du das eigene Wissenssystem einer Kundin präsentieren würdest.
 
 ## Feature 3: Templates — Konsistenz durch Vorlagen pro Notiz-Typ
 
@@ -43,11 +43,7 @@ Der eigentliche Kniff für ein wachsendes Second Brain: pro `type` ein eigenes T
 
 Es gibt eine Externe Erweiterung namens **„Cron"** (`obsidian-cron`), das Obsidian-Befehle oder eigene Skripte nach echter Cron-Syntax zeitgesteuert ausführt — solange Obsidian offen bzw. im Hintergrund läuft.
 
-**Business-Beispiel:** Ein wöchentlicher Job, der veraltete Notizen findet (mehr dazu, wie man „veraltet" sauber definiert, in Kapitel 6) und automatisch auf `status: draft` zurücksetzt oder eine Erinnerungs-Notiz erzeugt — „diese SOPs müssen überprüft werden."
-
-## Exkurs: Was ist eine SOP
-
-**SOP** = Standard Operating Procedure, „Standardarbeitsanweisung": eine feste, dokumentierte Schritt-für-Schritt-Anleitung für einen wiederkehrenden Ablauf — z. B. „So läuft ein Erstgespräch mit einer neuen Kundin ab". Für Solo-Selbstständige sind SOPs typischerweise selbst Notizen im Vault, oft mit einem eigenen `type: SOP` im Frontmatter.
+**Business-Beispiel:** Ein wöchentlicher Job, der veraltete Notizen findet (mehr dazu, wie man „veraltet" sauber definiert, in Kapitel 6) und automatisch auf `status: draft` zurücksetzt oder eine Erinnerungs-Notiz erzeugt — „diese [[SOP]]s müssen überprüft werden."
 
 ---
 

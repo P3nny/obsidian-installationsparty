@@ -22,7 +22,7 @@ Claude ist bei strukturierten Aufgaben wie dieser sehr zuverlässig — aber „
 
 ## Erweiterung, falls Zeit bleibt
 
-Bitte die KI, **alle** Notizen im Ordner `03-vaults-und-graph-view/beispiel-notizen` zu überprüfen: Haben alle ein vollständiges Frontmatter? Fehlt irgendwo `type` oder `status`? Zeigt: Dieselbe Fähigkeit skaliert vom Einzelfall auf einen ganzen Vault — genau das macht ein Second Brain mit tausenden Notizen erst praktisch handhabbar.
+Bitte die KI, **alle** Notizen im Ordner `notizen` zu überprüfen: Haben alle ein vollständiges Frontmatter? Fehlt irgendwo `type` oder `status`? Zeigt: Dieselbe Fähigkeit skaliert vom Einzelfall auf einen ganzen Vault — genau das macht ein Second Brain mit tausenden Notizen erst praktisch handhabbar.
 
 ---
 

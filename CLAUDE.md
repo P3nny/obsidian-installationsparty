@@ -10,12 +10,13 @@ Live-Workshop (Zoom + Breakout-Rooms) für eine technisch heterogene, überwiege
 00-vorbereitung/        Installation, gestaffelt entlang der Kapitel-Ordner: A=Obsidian+Vault (vor Kap. 1), B=Terminal/Claude-Code-CLI/Claudian (vor Kap. 4), C=Kern-Plugins prüfen + optional Cron (vor Kap. 5), D=Command-Line-Werkzeuge (optional), E=Git (optional)
 01-obsidian-und-markdown/
 02-sync-mehrere-geraete/
-03-vaults-und-graph-view/   (inkl. beispiel-notizen/ — 7 vorverlinkte Beispiel-Notizen)
+03-vaults-und-graph-view/
 04-ki-erweiterung/          (4 Teile: Plugin-Setup&Chat, Workflow-zu-OKF, Second-Brain-Übung, Vergleich)
 05-power-usecase/
 06-okf-format/              (Vertiefung, optional)
 bonus-command-line/         (Pull-Marketing aus Kapitel 4, kein Pflichtkapitel)
-bonus-git/                  (noch nicht ausgearbeitet)
+notizen/                    Konzept-/Begriffsnotizen, dienen zugleich als Demo-Material (Graph-Ansicht, Bases, Canvas, KI-Übungen)
+bonus-git/                  Git-Grundlagen + Plugin „Obsidian Git"
 ```
 
 **Wichtig bei Strukturänderungen:** Kapitel-Nummern werden im Fließtext quervermerkt („siehe Kapitel 3" etc.) — bei Umbenennung/Umsortierung IMMER per `grep -rn "Kapitel [0-9]"` alle Dateien durchsuchen und Referenzen mitziehen.
@@ -50,7 +51,7 @@ Bei externen Quellen (Blogposts, Doku): paraphrasieren, nicht wörtlich überneh
 
 ## Offene Punkte (siehe auch „Offene Punkte"-Listen in den einzelnen Dateien)
 
-- `bonus-git/` komplett unbearbeitet, nur ein ToDo notiert (Personal-Access-Token-Erklärung für `git push`-Authentifizierung).
+- `bonus-git/1-git.md` ausgearbeitet (Videospiel-Speicherpunkt-Analogie, eigenes Repo, Auth über Git Credential Manager / `gh`, PAT nur als Notfall, danach Plugin „Obsidian Git"). Offene Punkte stehen in der Datei.
 - Diverse Screenshots/GIFs noch nicht erstellt (in `00-vorbereitung.md` gelistet).
 - Zeitbudget für Teil A der Vorbereitung nur grob geschätzt, nicht live getestet.
 - Frontmatter-Verlinkung als Pilot eingeführt — bei Bedarf auf weitere Begriffe ausweiten (z. B. Vault, Terminal, Agentische KI als eigene Konzept-Notizen).

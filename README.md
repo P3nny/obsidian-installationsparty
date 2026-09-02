@@ -52,13 +52,16 @@ Auch wenn du nicht live dabei bist: Das Material hier ist so geschrieben, dass e
 00-vorbereitung/              Installation, gestaffelt entlang der Kapitel
 01-obsidian-und-markdown/     Grundlagen + Markdown-Cheatsheet
 02-sync-mehrere-geraete/      Vault auf mehreren Geräten
-03-vaults-und-graph-view/     Vaults, Verlinkung, Graph-Ansicht (inkl. Beispiel-Notizen)
+03-vaults-und-graph-view/     Vaults, Verlinkung, Graph-Ansicht
 04-ki-erweiterung/            Claudian-Setup, Workflow zu OKF, Second-Brain-Übung, Vergleich
 05-power-usecase/             Bases, Canvas, Templates, Cron
 06-okf-format/                Vertiefung Open Knowledge Format (optional)
 bonus-command-line/           Command-Line-Grundlagen (freiwillig)
-bonus-git/                    Git-Grundlagen (freiwillig, noch im Aufbau)
+bonus-git/                    Git-Grundlagen + Plugin „Obsidian Git" (freiwillig)
+notizen/                      Erklärende Notizen zu Begriffen — zugleich Übungsmaterial
 ```
+
+Der Ordner `notizen/` ist bewusst kein Kapitel: Dort stehen kurze Notizen zu Begriffen wie Vault, Markdown oder Frontmatter, auf die aus den Kapiteln heraus verlinkt wird. Sie dienen gleichzeitig als Übungsmaterial für Graph-Ansicht, Bases, Canvas und die KI-Übungen — das Material erklärt seine Konzepte also mit genau dem Mittel, um das es geht.
 
 Die Installation in `00-vorbereitung/` ist so aufgeteilt, dass du immer nur das einrichtest, was das nächste Kapitel tatsächlich braucht:
 
@@ -68,7 +71,7 @@ Die Installation in `00-vorbereitung/` ist so aufgeteilt, dass du immer nur das 
 | B | vor Kapitel 4 | Terminal, Claude Code CLI, Claude-Zugang, Claudian |
 | C | vor Kapitel 5 | Kern-Plugins prüfen (Bases, Canvas, Templates), optional Cron |
 | D | vor Bonus Command Line (optional) | ggf. besseres Windows-Terminal, cowsay, ImageMagick |
-| E | vor Bonus Git (optional) | Git |
+| E | vor Bonus Git (optional) | Git, GitHub-Konto, Erweiterung „Obsidian Git" |
 
 Die Kapitel 2, 3 und 6 brauchen nichts zusätzlich.
 

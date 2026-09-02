@@ -1,8 +1,12 @@
 # Vaults & Graph-Ansicht
 
-Die fünf Beispiel-Notizen (`Obsidian.md`, `Zettelkasten.md`, `Second Brain.md`, `OKF.md`, `KI-Workflow.md`) liegen bereits fertig in deinem Vault — nur noch ohne Verlinkung. Die baust du in diesem Kapitel selbst auf.
+Im Ordner **`notizen/`** liegen bereits fertige Notizen in deinem Vault. Fünf davon (`Obsidian.md`, `Zettelkasten.md`, `Second Brain.md`, `OKF.md`, `KI-Workflow.md`) sind noch fast unverlinkt — diese Verbindungen baust du in diesem Kapitel selbst auf.
 
-*Eine sechste Notiz, `Kundenprojekt-Lotos.md`, liegt ebenfalls schon im Vault, bleibt hier aber bewusst unverlinkt und taucht als isolierter Punkt in der Graph-Ansicht auf — kein Fehler, sie wird erst in Kapitel 4 gebraucht.*
+*Eine Verbindung ist als Vorlage schon da: Ganz unten in `Zettelkasten.md` steht `Baut die Grundlage für das Prinzip des [[Second Brain]].` Schau sie dir kurz an — so sieht ein Link im Rohtext aus, und genauso legst du gleich deine eigenen an.*
+
+*Der Ordner liegt bewusst außerhalb der Kapitel-Ordner: Die Notizen erklären Begriffe, auf die aus mehreren Kapiteln heraus verlinkt wird, und dienen später auch als Material für Bases, Canvas und die KI-Übungen.*
+
+*`Kundenprojekt-Lotos.md` bleibt hier bewusst unverlinkt und taucht als isolierter Punkt in der Graph-Ansicht auf — kein Fehler, sie wird erst in Kapitel 4 gebraucht.*
 
 ## Kurzer Zwischenstopp: Was ist Frontmatter?
 
