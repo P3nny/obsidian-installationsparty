@@ -26,10 +26,10 @@ Vorausgesetzt wird nichts außer einem eigenen Laptop und Neugier.
 - Installation der KI-Erweiterung **Claudian** samt Claude Code CLI
 - **Web Clipper** — Artikel aus dem Browser als fertig formatierte Notiz ins Vault holen
 - Der **Second-Brain-Kreislauf**: roh reinwerfen, von der KI verdichten und verlinken lassen, per Frage wiederfinden
-- Ein **Obsidian-Power-Usecase** (Bases, Canvas, Templates, Cron)
 - **Open Knowledge Format (OKF)** — ein leichtgewichtiges Format, um Notizen mit Struktur, Herkunft und Vertrauensstatus zu versehen
 - **Bonus:** Grundlagen der Command Line — genug, um sich sicher zu bewegen
 - **Bonus:** Git-Grundlagen — was es ist, wofür man es braucht, erster Commit und Push mit dem eigenen Vault als Repo
+- Bonus **Obsidian-Power-Usecases** (Templates, Cron, Bases, Canvas )
 
 ## Format & Ablauf
 
@@ -39,40 +39,8 @@ Auch wenn du nicht live dabei bist: Das Material hier ist so geschrieben, dass e
 
 ## So nutzt du dieses Repo
 
-1. Installiere zuerst Obsidian: [obsidian.md](https://obsidian.md)
-2. Lade dieses gesamte Repository herunter (`Code` → `Download ZIP`, oder `git clone`, falls du das schon kannst)
-3. Öffne den heruntergeladenen Ordner in Obsidian als Vault („Ordner als Vault öffnen")
-4. Du findest darin eine vorbereitete Struktur mit Beispielen, Übungen und Referenzmaterial zum Nachschlagen — leg direkt los, oder folge der Reihenfolge der Kapitel
-5. Weitere Werkzeuge installierst du erst, wenn du beim jeweiligen Kapitel angekommen bist — die Übersicht dazu steht in `00-installation.md`
-
-## Struktur dieses Repos
-
-```
-00-installation.md            Installation, gestaffelt entlang der Kapitel
-01-obsidian-und-markdown/     Grundlagen + Markdown-Cheatsheet
-02-sync-mehrere-geraete/      Vault auf mehreren Geräten
-03-vaults-und-graph-view/     Vaults, Verlinkung, Graph-Ansicht
-04-ki-second-brain/           Claudian-Setup, Web Clipper, Verdichten & Wiederfinden, OKF
-bonus-power-usecases-obsidian/ Templates, Bases, Canvas, Cron (freiwillig)
-bonus-command-line/           Command-Line-Grundlagen (freiwillig)
-bonus-git/                    Git-Grundlagen + Plugin „Obsidian Git" (freiwillig)
-notizen/                      Erklärende Notizen zu Begriffen — zugleich Übungsmaterial
-Clippings/                    Beispiel-Clips aus dem Web Clipper — Rohmaterial für Kapitel 4
-```
-
-Der Ordner `notizen/` ist bewusst kein Kapitel: Dort stehen kurze Notizen zu Begriffen wie Vault, Markdown oder Frontmatter, auf die aus den Kapiteln heraus verlinkt wird. Sie dienen gleichzeitig als Übungsmaterial für Graph-Ansicht, Bases, Canvas und die KI-Übungen — das Material erklärt seine Konzepte also mit genau dem Mittel, um das es geht.
-
-Die Anleitung in `00-installation.md` ist so aufgeteilt, dass du immer nur das einrichtest, was das nächste Kapitel tatsächlich braucht:
-
-| Teil | Wann | Werkzeug |
-| ---- | ---- | -------- |
-| A | vor Kapitel 1 | Obsidian, Vault herunterladen und öffnen |
-| B | vor Kapitel 4 | Terminal, Claude Code CLI, Claude-Zugang, Claudian, optional Web Clipper |
-| C | vor Bonus Power-Usecase (optional) | Kern-Plugins prüfen (Templates, Bases, Canvas), optional Cron |
-| D | vor Bonus Command Line (optional) | ggf. besseres Windows-Terminal, cowsay, ImageMagick |
-| E | vor Bonus Git (optional) | Git, GitHub-Konto, Erweiterung „Obsidian Git" |
-
-Die Kapitel 2 und 3 brauchen nichts zusätzlich.
+1. Starte bei [[00-installation]]
+2. Danach geht es im Ordnr `01-obsidian-grundlagen` weiter 
 
 ## Herkunft & Community
 
