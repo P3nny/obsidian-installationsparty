@@ -12,7 +12,7 @@ Live-Workshop (Zoom + Breakout-Rooms) für eine technisch heterogene, überwiege
 02-sync-mehrere-geraete/
 03-vaults-und-graph-view/
 04-ki-second-brain/         (5 Teile: Plugin-Setup&Chat, Wissen-reinholen/Web-Clipper, Verdichten&Wiederfinden, Eigenes-Wissen, OKF)
-05-power-usecase/
+bonus-power-usecases-obsidian/ (Bonus, kein Pflichtkapitel: Templates, Automatisierungs-Ausblick, Cron, kurz Bases/Canvas)
 bonus-command-line/         (Pull-Marketing aus Kapitel 4, kein Pflichtkapitel)
 notizen/                    Konzept-/Begriffsnotizen, dienen zugleich als Demo-Material (Graph-Ansicht, Bases, Canvas, KI-Übungen)
 Clippings/                  Beispiel-Clips des Web Clippers, Rohmaterial für Kapitel 4 Teil 2/3
@@ -38,7 +38,7 @@ Jede Änderung soll so wenig Tokens wie möglich kosten — beim Schreiben *und*
 - Inhaltliche Grundlage für den Second-Brain-Kreislauf sind die zwei Clippings (Karpathy: ingest → compile → Q&A → zurückfilen → linting; Tom Liu: der Engpass ist die Fleißarbeit nach dem Lesen).
 - Claude Code CLI wird über den **nativen Installer** eingerichtet (kein Node.js/npm nötig): `curl -fsSL https://claude.ai/install.sh | bash` (Mac/Linux) bzw. `irm https://claude.ai/install.ps1 | iex` (Windows).
 - **Bases** (nativ, kein Plugin) statt Dataview für Datenbank-Ansichten.
-- **Templates** (natives Kern-Plugin) statt Templater — die Übungen brauchen nur feste Bausteine und `{{date}}`/`{{title}}`/`{{time}}`. Templater steht in Kapitel 5 nur noch als Ausblick.
+- **Templates** (natives Kern-Plugin) statt Templater — die Übungen brauchen nur feste Bausteine und `{{date}}`/`{{title}}`/`{{time}}`. Templater steht im Bonus-Kapitel Power-Usecase nur noch als Ausblick.
 - Claude Code CLI läuft auch in **cmd** (eigener Installer `install.cmd`), nicht nur in PowerShell — Windows-Teilnehmerinnen sind also nie blockiert.
 - Free-Tarif von claude.ai reicht NICHT für Claude Code/Claudian — nur Pro/Max-Abo oder API-Key.
 

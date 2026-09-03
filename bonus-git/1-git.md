@@ -4,20 +4,16 @@
 
 ## Was ist Git — und warum kennt es jede Entwicklerin?
 
-Stell dir vor, du spielst ein Videospiel. Du kämpfst dich durch ein langes Level, alles läuft gut — und dann stirbst du beim Endboss. Ohne Speicherpunkt heißt das: das ganze Level noch mal. Mit Speicherpunkt: zurück zur letzten guten Stelle, neuer Versuch.
+Stell dir vor, du spielst ein Videospiel: Ohne Speicherpunkt heißt ein Fehlschlag beim Endboss „das ganze Level nochmal", mit Speicherpunkt nur „zurück zur letzten guten Stelle". **Genau das macht [[Git]] für deine Dateien** — nur dass du zu jedem früheren Stand zurück kannst, nicht nur zum letzten. Details und die Begründung, warum das in der Softwareentwicklung praktisch alternativlos ist, stehen in der verlinkten Notiz; hier geht's direkt in die Praxis.
 
-**Genau das macht Git für deine Dateien.** Du legst selbst fest, wann ein Speicherpunkt entsteht, und kannst jederzeit dorthin zurück. Nicht nur zum letzten, sondern zu jedem einzelnen. „Gestern um 14 Uhr lief das noch" ist mit Git keine Erinnerung, sondern ein Zustand, den du wiederherstellen kannst.
-
-Der Moment, in dem man Git wirklich zu schätzen lernt, kommt fast immer gleich: Man hat etwas umgebaut, es funktioniert nicht mehr, und man weiß nicht mehr genau, was man eigentlich verändert hat. Ohne Git bleibt Rätselraten. Mit Git vergleichst du den aktuellen Stand mit dem letzten funktionierenden und siehst zeilengenau den Unterschied.
-
-Deshalb ist Git in der Softwareentwicklung praktisch alternativlos — es löst außerdem ein zweites Problem: Mehrere Menschen können gleichzeitig an denselben Dateien arbeiten, ohne sich gegenseitig zu überschreiben. Für deinen Vault ist vor allem der Speicherpunkt-Aspekt interessant, und ganz nebenbei bekommst du Sync zwischen zwei Geräten dazu (siehe Kapitel 2).
+Für deinen Vault ist vor allem der Speicherpunkt-Aspekt interessant, und ganz nebenbei bekommst du Sync zwischen zwei Geräten dazu (siehe Kapitel 2).
 
 **Drei Begriffe reichen für den Anfang:**
 
 | Begriff       | Im Videospiel-Bild                                        |
 | ------------- | --------------------------------------------------------- |
-| **Repository** | Das Spiel samt allen Speicherständen — bei dir: dein Vault |
-| **Commit**    | Speichern. Du machst einen Speicherpunkt mit Notizzettel dran: „Was habe ich gerade geändert?" |
+| **[[Repository]]** | Das Spiel samt allen Speicherständen — bei dir: dein Vault |
+| **[[Commit]]**    | Speichern. Du machst einen Speicherpunkt mit Notizzettel dran: „Was habe ich gerade geändert?" |
 | **Push**      | Den Speicherstand zusätzlich ins Netz hochladen — sicher vor Laptop-Verlust, abrufbar auf dem zweiten Gerät |
 
 ## Schritt 1: GitHub-Konto anlegen
@@ -77,7 +73,7 @@ Zwei Befehle, und dein erster Speicherpunkt steht:
 
 ```
 git add .
-git commit -m "Mein Vault, erster Stand"
+git commit -m ":tada: Mein Vault, erster Stand"
 ```
 
 - `git add .` sagt: „Alles, was sich geändert hat, kommt in den nächsten Speicherpunkt." (Der Punkt bedeutet „alles hier".)
@@ -164,14 +160,13 @@ Das Plugin nutzt das Git, das du in Teil E installiert hast, und die Anmeldung a
 - Ein **Backup** außerhalb deines Laptops
 - **Sync** zwischen zwei Geräten, ohne einen kostenpflichtigen Dienst (Option 3 aus Kapitel 2)
 
-Wenn du tiefer einsteigen willst, sind `git log` (alle Speicherpunkte ansehen), `git diff` (was habe ich geändert?) und `git restore` (zurück zum letzten Stand) die nächsten drei Befehle, die sich lohnen.
+Wenn du tiefer einsteigen willst, sind `git log` (alle Speicherpunkte ansehen), `git diff` (was habe ich geändert?) und `git restore` (zurück zum letzten Stand) die nächsten drei Befehle, die sich lohnen — alle im [[2-cheatsheet-git|Git Cheatsheet]] zum Nachschlagen.
 
 ---
 
 ## Offene Punkte / noch zu ergänzen
 
 - [ ] Screenshots: „New repository"-Formular mit den nicht angehakten Optionen, Browser-Fenster des Git Credential Manager
-- [ ] Zeitbudget testen — realistisch für eine Breakout-Session?
 - [ ] Prüfen, ob `gh` auf typischen Mac-Teilnehmerinnen-Rechnern ohne Homebrew verfügbar ist; ggf. PAT-Variante nach vorne ziehen
 - [ ] Merge-Konflikte: bewusst ausgelassen — entscheiden, ob ein kurzer Absatz „was tun, wenn zwei Geräte dasselbe geändert haben" nötig ist
 

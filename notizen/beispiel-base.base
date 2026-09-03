@@ -1,0 +1,12 @@
+views:
+  - type: table
+    name: Tabelle
+    filters:
+      and:
+        - type == "Tool"
+    order:
+      - file.name
+      - file.tags
+    sort:
+      - property: file.name
+        direction: DESC

@@ -53,7 +53,7 @@ Auch wenn du nicht live dabei bist: Das Material hier ist so geschrieben, dass e
 02-sync-mehrere-geraete/      Vault auf mehreren Geräten
 03-vaults-und-graph-view/     Vaults, Verlinkung, Graph-Ansicht
 04-ki-second-brain/           Claudian-Setup, Web Clipper, Verdichten & Wiederfinden, OKF
-05-power-usecase/             Bases, Canvas, Templates, Cron
+bonus-power-usecases-obsidian/ Templates, Bases, Canvas, Cron (freiwillig)
 bonus-command-line/           Command-Line-Grundlagen (freiwillig)
 bonus-git/                    Git-Grundlagen + Plugin „Obsidian Git" (freiwillig)
 notizen/                      Erklärende Notizen zu Begriffen — zugleich Übungsmaterial
@@ -68,7 +68,7 @@ Die Anleitung in `00-installation.md` ist so aufgeteilt, dass du immer nur das e
 | ---- | ---- | -------- |
 | A | vor Kapitel 1 | Obsidian, Vault herunterladen und öffnen |
 | B | vor Kapitel 4 | Terminal, Claude Code CLI, Claude-Zugang, Claudian, optional Web Clipper |
-| C | vor Kapitel 5 | Kern-Plugins prüfen (Bases, Canvas, Templates), optional Cron |
+| C | vor Bonus Power-Usecase (optional) | Kern-Plugins prüfen (Templates, Bases, Canvas), optional Cron |
 | D | vor Bonus Command Line (optional) | ggf. besseres Windows-Terminal, cowsay, ImageMagick |
 | E | vor Bonus Git (optional) | Git, GitHub-Konto, Erweiterung „Obsidian Git" |
 
@@ -89,6 +89,10 @@ Dieses gesamte Repository steht unter [Creative Commons Attribution-ShareAlike 4
 Teile des Command-Line- und Git-Materials orientieren sich am [Django Girls Tutorial](https://github.com/DjangoGirls/tutorial), das ebenfalls unter CC BY-SA 4.0 steht — deshalb ist diese Lizenz für das gesamte Repo gewählt. Übernommene Abschnitte sind entsprechend gekennzeichnet.
 
 **Copyright:** © 2026 [P3nny](https://github.com/P3nny) — Text und Übungen dieses Repos, sofern nicht anders gekennzeichnet.
+
+## Transparenzhinweis: Einsatz von KI
+
+Große Teile der Texte, Übungen und Beispielnotizen in diesem Repository sind mit Unterstützung von Claude (Anthropic) entstanden — recherchiert, formuliert und redigiert im Zusammenspiel mit der Organisatorin, die Auswahl, Prüfung und finale Freigabe liegen bei ihr. Das gilt fürs gesamte Material, nicht nur für einzelne Dateien.
 
 ## Feedback
 

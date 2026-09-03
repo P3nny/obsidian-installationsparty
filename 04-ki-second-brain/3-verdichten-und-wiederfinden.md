@@ -55,7 +55,7 @@ Ohne Metadaten bleibt der KI nur die Stichwortsuche im Fließtext — und die tr
 
 > „Zeig mir alle Notizen mit `type: Projekt`, die noch `status: draft` sind."
 
-Die erste Frage braucht mehrere Notizen gleichzeitig (offenes Budget, Hamburg-Standort, deine eigene Regel zum Gegenlesen). Die zweite ist eine Datenbank-Abfrage in normaler Sprache — dafür baust du in Kapitel 5 gleich noch eine Klick-Oberfläche.
+Die erste Frage braucht mehrere Notizen gleichzeitig (offenes Budget, Hamburg-Standort, deine eigene Regel zum Gegenlesen). Die zweite ist eine Datenbank-Abfrage in normaler Sprache — dafür gibt es im optionalen Bonus-Kapitel Power-Usecase noch eine Klick-Oberfläche ganz ohne KI.
 
 ## 4. Der Kreislauf schließt sich
 

@@ -71,24 +71,19 @@ Im Vault liegt eine Notiz, die alle Felder in einem echten Anwendungsfall zeigt:
 
 ## Nutzen über Datenmanagement hinaus
 
-### Wissenschaftliches Arbeiten
-- `sources` mit Fußnoten-Verknüpfung ist im Kern ein Zitations-System
-- `verified` unterscheidet eine ungeprüfte Idee von einer bereits gegengelesenen Aussage
-- `status: draft/stable` macht sichtbar, welche Notizen noch Rohmaterial sind und welche belastbar zitierfähig sind
-- `stale_after` ist relevant für Forschung mit sich verändernden Daten 
-### Solo-Selbstständige
-- `sources` mit `author`/`last_modified` hält fest, woher Kundenwissen oder Marktrecherchen stammen — nachvollziehbar auch Monate später
-- `status` unterscheidet aktuelle SOPs/Vorlagen von veralteten
-- `generated`/`verified` schafft Klarheit: War das ein KI-Entwurf, oder von mir selbst geprüft, bevor es an eine Kundin ging?
-- Die eigene Notizsammlung wird KI-lesbar und -durchsuchbar, ohne dass man ein zusätzliches Tool braucht
+Egal ob wissenschaftliches Arbeiten oder eigenes Business — dasselbe Feldset trägt beides:
+
+- `sources` ist im Kern ein Zitations- bzw. Herkunftsnachweis: woher ein Kundenwissen, eine Marktrecherche oder ein Zitat stammt, nachvollziehbar auch Monate später
+- `verified` unterscheidet eine ungeprüfte Idee von einer gegengelesenen Aussage — bei Forschung ebenso wichtig wie bei einem Angebot, das nie ungeprüft rausgeht
+- `status: draft/stable` zeigt, was noch Rohmaterial ist und was belastbar zitier- bzw. verwendbar ist
+- `stale_after` macht sichtbar, wann sich verändernde Daten oder Abläufe erneut geprüft werden müssen
+- In jedem Fall wird die eigene Notizsammlung KI-lesbar und -durchsuchbar, ohne zusätzliches Tool
 
 ## Wofür OKF NICHT gedacht ist
 
-Für ein tägliches Journal oder simple Aufgabenverwaltung wäre OKF überdimensioniert. Niemand will bei jedem Tageseintrag Felder wie `sources` oder `verified` pflegen; dafür reichen einfache Tags oder spezialisierte Plugins (z. B. „Tasks").
+Für ein tägliches Journal oder simple Aufgabenverwaltung wäre OKF überdimensioniert — niemand will bei jedem Tageseintrag `sources` oder `verified` pflegen, dafür reichen einfache Tags.
 
-Die Unterscheidung passt zum Zettelkasten-Prinzip aus Kapitel 1: Luhmann trennte zwischen *flüchtigen Notizen* (schnell, unstrukturiert — euer Journal) und *permanenten Notizen* (durchdacht, verknüpft, dauerhaft). OKF ist ein Format für die **permanenten** Notizen — die, die es wert sind, dauerhaft im Second Brain zu bleiben.
-
-Praktisch heißt das: Man schreibt frei im Journal, und nur wenn eine Idee es wert ist, bekommt sie beim „Befördern" ins Second Brain einen `type`, vielleicht `status: draft`, später `verified`. Genau diesen Übergang hast du in Teil 3 selbst gemacht — nur dass ihn dort die KI ausgeführt hat.
+Die Unterscheidung passt zur Trennung von flüchtigen und permanenten Notizen im [[Zettelkasten]]: OKF ist ein Format für die **permanenten** Notizen — die, die es wert sind, dauerhaft im Second Brain zu bleiben. Genau diesen Übergang — vom freien Journal-Eintrag zu `type`, `status`, irgendwann `verified` — hast du in Teil 3 selbst gemacht, nur dass dort die KI ihn ausgeführt hat.
 
 *Übrigens lässt sich das direkt in den Web Clipper einbauen: In den Vorlagen der Erweiterung kannst du feste Eigenschaften hinterlegen, sodass jeder Clip automatisch mit `type` und `status: draft` ankommt.*
 

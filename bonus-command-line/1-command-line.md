@@ -6,9 +6,9 @@ Inhaltlich angelehnt an das [Django Girls Tutorial](https://tutorial.djangogirls
 
 ## Was ist die Command Line
 
-Die Command Line (auch: Terminal, Konsole, CLI, Prompt) ist ein rein textbasiertes Werkzeug, um Dateien auf deinem Rechner anzuschauen, zu verschieben und zu bearbeiten — im Grunde dasselbe wie der Finder (Mac) oder der Explorer (Windows), nur ohne Fenster, Icons und Mausklicks. Stattdessen tippst du Befehle, die der Computer direkt ausführt.
+Die Command Line (auch: [[Terminal]], Konsole, CLI, Prompt) erledigt textbasiert, was du sonst mit der Maus machst — nur oft schneller, sobald du ein paar Befehle kennst, und manches geht überhaupt nur so.
 
-Das mag am Anfang ungewohnt wirken, ist aber oft schneller als Klicken — und einige Dinge gehen überhaupt nur über die Command Line. Die gute Nachricht vorweg: Auswendig lernen musst du davon nichts, dafür hast du inzwischen eine KI. Aber zu verstehen, was sie da für dich tut, lohnt sich — spätestens, wenn sie mal etwas anderes tut als erwartet.
+Auswendig lernen musst du davon nichts, dafür hast du inzwischen eine KI. Aber zu verstehen, was sie da für dich tut, lohnt sich — spätestens, wenn sie mal etwas anderes tut als erwartet.
 
 ## Terminal öffnen
 
@@ -31,7 +31,7 @@ $PSVersionTable.PSVersion
 - Kommt eine **Versionsnummer** zurück → du bist in **PowerShell**. Die meisten Befehle in diesem Kapitel funktionieren hier mit der Windows-Spalte aus den Tabellen unten.
 - Kommt eine **Fehlermeldung** (etwa „wird nicht als Name eines Cmdlets erkannt") → du bist in **cmd / Eingabeaufforderung**, der einfachsten Variante.
 
-Falls du in Schritt 10 der Installation schon **Git Bash** installiert hast: Öffne stattdessen dieses Terminal — dort funktionieren alle Befehle in diesem Kapitel exakt wie auf Mac/Linux beschrieben, ganz ohne Umweg über PowerShell-Alternativen.
+Falls du in Schritt 10 der Installation schon **Git Bash** installiert hast: Öffne stattdessen das Git Bash Terminal — dort funktionieren alle Befehle in diesem Kapitel exakt wie auf Mac/Linux beschrieben, ganz ohne Umweg über PowerShell-Alternativen.
 
 ## Erste Schritte
 
@@ -92,13 +92,9 @@ Die Command Line kann weit mehr als Ordner verschieben. Hier drei kleine, greifb
 
 ### 1. Eine sprechende Kuh: `cowsay`
 
-`cowsay` ist ein kleines Programm, das eingegebenen Text in eine ASCII-Art-Kuh mit Sprechblase packt — nutzlos und großartig zugleich, und ein guter erster Kontakt mit **Pipes** (`|`), also dem Weiterreichen von Ausgaben zwischen Programmen.
+Es gibt eine große Entwicklergemeinschaft, die zusätzliche Programme fürs Terminal schreibt. `cowsay` ist eines davon: Es packt eingegebenen Text in eine ASCII-Art-Kuh mit Sprechblase — nutzlos und großartig zugleich, und ein guter erster Kontakt mit **Pipes** (`|`), also dem Weiterreichen von Ausgaben zwischen Programmen.
 
-**Installation:**
-- macOS (mit Homebrew): `brew install cowsay`
-- Linux: `sudo apt install cowsay`
-- Windows mit Git Bash (aus Installation, Schritt 10): wie Linux, oder falls dort nicht vorhanden, per PowerShell-Modul (siehe unten)
-- Windows ohne Adminrechte: PowerShell-Modul ohne Zusatzrechte installieren: `Install-Module -Scope CurrentUser PSCowsay`, danach `Get-Cow "Hallo Workshop!"` statt der `echo | cowsay`-Pipe unten
+**Installation:** siehe Installation, Teil D, Schritt 11 — dort auch die Variante ohne Adminrechte ([[Ohne Adminrechte]]).
 
 **Übung (Mac/Linux/Git Bash):**
 ```
@@ -121,13 +117,9 @@ Das `|` (Pipe) leitet die Ausgabe von `echo` als Eingabe an `cowsay` weiter, sta
 
 ### 2. Aus Einzelbildern ein GIF bauen
 
-Mit dem Werkzeug **ImageMagick** lässt sich aus einer Reihe von Bildern in Sekunden eine Animation basteln — praktisch z. B. für Screenshots, die den Fortschritt eines Vaults über mehrere Wochen zeigen.
+Mit dem Werkzeug **ImageMagick** lässt sich aus einer Reihe von Bildern in Sekunden eine Animation basteln.
 
-**Installation:**
-- macOS: `brew install imagemagick`
-- Linux: `sudo apt install imagemagick`
-- Windows mit Adminrechten: Installer von [imagemagick.org](https://imagemagick.org/script/download.php)
-- Windows ohne Adminrechte: [portable ZIP-Version](https://imagemagick.org/script/download.php#windows) herunterladen und entpacken — `convert.exe` läuft direkt aus dem entpackten Ordner heraus, ganz ohne Installation
+**Installation:** siehe Installation, Teil D, Schritt 11 — dort auch die Variante ohne Adminrechte ([[Ohne Adminrechte]]).
 
 **Übung:** Lege 3–5 Bilder in einen Ordner (z. B. `bild1.png`, `bild2.png`, `bild3.png`) und führe im selben Ordner aus:
 
@@ -171,7 +163,7 @@ Diese Liste orientiert sich am Aufbau des Buches [*Automate the Boring Stuff wit
 - Excel-Tabellen oder Google Sheets automatisch befüllen oder auswerten
 - PDFs und Word-Dokumente automatisch zusammenführen, aufteilen oder Text daraus extrahieren
 - CSV-, JSON- oder XML-Dateien automatisch verarbeiten
-- Zeitgesteuerte Aufgaben einrichten, die täglich oder wöchentlich von selbst laufen (Stichwort Cron aus Kapitel 5!)
+- Zeitgesteuerte Aufgaben einrichten, die täglich oder wöchentlich von selbst laufen (Stichwort Cron aus dem Bonus-Kapitel Power-Usecase!)
 - Automatisch E-Mails, SMS oder Push-Benachrichtigungen verschicken
 - Diagramme erstellen oder Bilder automatisch bearbeiten (Logo einfügen, Größe ändern, drehen)
 - Text aus Screenshots oder Fotos erkennen (OCR)
