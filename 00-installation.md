@@ -2,7 +2,27 @@
 
 ## Worum geht es hier?
 
-Willkommen zur Obsidian Installationsparty! Was der Workshop bezweckt und wie das Repo aufgebaut ist, steht im [[README]] — hier geht's direkt an die Installation.
+Willkommen zur Obsidian Installationsparty! Versteht es bitte wirklich als Party - das hier soll Spaß machen. Quatschen und lachen ist ausdrücklich gewünscht, lernt die anderen Teilnhemer:innen ein bisschen kennen, lernt gemeinsam und tauscht euch aus. Wir arbeiten zu viert in Breakout-Rooms. Auf drei Teilnehmer:innen kommt eine Mentorin. 
+
+Betrachtet die Inhalte hier als ein reichhaltiges Buffet - und pickt für Euch raus, worauf ihr gerade Lust habt und was ihr gerade gebrauchen könnt. Sowohl was die Kapitel angeht als auch innerhalb der Inhalte. Ihr könnt die Übungen machen, müsst ihr aber nicht. Ihr dürft gerne alles genau lesen, aber überfliegen ist auch ok. 
+Vielleicht hast Du nach einer Stunde alles, was Du heute wolltest. Vielleicht nimmst Du Dir mehr Zeit.
+
+Die Übungen sind KI-generiert und teilweise nicht intuitiv lösbar. Spring gerne direkt zum Auflösungsteil und frag bei Patricia oder deiner Mentorin nach. 
+ 
+## Was du hier lernen kannst
+
+- **Obsidian installieren** und die Grundidee dahinter verstehen
+- **Markdown** — die einfache Auszeichnungssprache, mit der alles hier geschrieben ist
+- **Vaults** — wie Obsidian deine Notizen organisiert
+- **Graph-Ansicht** — wie aus verlinkten Notizen ein sichtbares Wissensnetz wird
+- **Sync** — welche Wege es gibt, den Vault auf mehreren Geräten aktuell zu halten
+- Installation der KI-Erweiterung **Claudian** samt Claude Code CLI
+- **Web Clipper** — Artikel aus dem Browser als fertig formatierte Notiz ins Vault holen
+- Der **Second-Brain-Kreislauf**: roh reinwerfen, von der KI verdichten und verlinken lassen, per Frage wiederfinden
+- **Open Knowledge Format (OKF)** — ein leichtgewichtiges Format, um Notizen mit Struktur, Herkunft und Vertrauensstatus zu versehen
+- **Bonus:** Grundlagen der Command Line — genug, um sich sicher zu bewegen
+- **Bonus:** Git-Grundlagen — was es ist, wofür man es braucht, erster Commit und Push mit dem eigenen Vault als Repo
+- Bonus **Obsidian-Power-Usecases** (Templates, Cron, Bases, Canvas )
 
 ## Wie geht's los?
 

@@ -16,21 +16,6 @@ Für alle, die neugierig auf Obsidian, Markdown, Open Knowledge Format und den s
 
 Vorausgesetzt wird nichts außer einem eigenen Laptop und Neugier.
 
-## Was du hier lernst
-
-- **Obsidian installieren** und die Grundidee dahinter verstehen
-- **Markdown** — die einfache Auszeichnungssprache, mit der alles hier geschrieben ist
-- **Vaults** — wie Obsidian deine Notizen organisiert
-- **Graph-Ansicht** — wie aus verlinkten Notizen ein sichtbares Wissensnetz wird
-- **Sync** — welche Wege es gibt, den Vault auf mehreren Geräten aktuell zu halten
-- Installation der KI-Erweiterung **Claudian** samt Claude Code CLI
-- **Web Clipper** — Artikel aus dem Browser als fertig formatierte Notiz ins Vault holen
-- Der **Second-Brain-Kreislauf**: roh reinwerfen, von der KI verdichten und verlinken lassen, per Frage wiederfinden
-- **Open Knowledge Format (OKF)** — ein leichtgewichtiges Format, um Notizen mit Struktur, Herkunft und Vertrauensstatus zu versehen
-- **Bonus:** Grundlagen der Command Line — genug, um sich sicher zu bewegen
-- **Bonus:** Git-Grundlagen — was es ist, wofür man es braucht, erster Commit und Push mit dem eigenen Vault als Repo
-- Bonus **Obsidian-Power-Usecases** (Templates, Cron, Bases, Canvas )
-
 ## Format & Ablauf
 
 Der Workshop findet live per Zoom statt, in kleinen Gruppen (3–4 Teilnehmerinnen) mit je einer Coachin an der Seite. Jede arbeitet in ihrem eigenen Tempo entlang der Materialien in diesem Repo. Wer im Termin nicht durchkommt, bekommt einen Nachfolgetermin angeboten.
