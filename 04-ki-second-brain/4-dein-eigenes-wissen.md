@@ -29,4 +29,4 @@ Notizen zu machen war nie das Problem. Das Problem war immer, sie wiederzufinden
 
 ---
 
-**Weiter geht's in Teil 5:** Du hast jetzt mehrfach `type` und `status` vergeben. Dafür gibt es eine ausformulierte Konvention — das OKF. Reine Vertiefung, kein Muss.
+**Weiter geht's in Teil [[5-okf-format]]:** Du hast jetzt mehrfach `type` und `status` vergeben. Dafür gibt es eine ausformulierte Konvention — das OKF. Reine Vertiefung, kein Muss.

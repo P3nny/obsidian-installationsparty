@@ -42,8 +42,8 @@ Es gibt eine Externe Erweiterung namens **„Cron"** (`obsidian-cron`), das Obsi
 
 Zwei weitere native Bordmittel, kurz erwähnt — kein Muss, aber gut zu wissen, dass es sie gibt:
 
-- **Bases** filtert und sortiert Notizen nach Frontmatter-Feldern und zeigt sie als Tabelle — eine kleine Datenbank-Ansicht ganz ohne Plugin. *Stolperfalle beim ersten Versuch:* Ein Tag-Filter ist kein Gleichheitsvergleich, sondern eine Funktion — `file.hasTag("prozess")`, nicht `file.tags == ["prozess"]`.
-- **Canvas** ist ein unendliches Whiteboard: Notizen, Text-Karten und Bilder frei platzieren und mit Pfeilen verbinden. Anders als die Graph-Ansicht (automatisch aus Links berechnet) ist Canvas manuell und räumlich — gut für Brainstorming oder um einen Workflow zu skizzieren.
+- **Bases** filtert und sortiert Notizen nach Frontmatter-Feldern und zeigt sie als Tabelle — eine kleine Datenbank-Ansicht ganz ohne Plugin. Fertiges Beispiel zum Anschauen: `notizen/beispiel-base.base`.
+- **Canvas** ist ein unendliches Whiteboard: Notizen, Text-Karten und Bilder frei platzieren und mit Pfeilen verbinden. Anders als die Graph-Ansicht (automatisch aus Links berechnet) ist Canvas manuell und räumlich — gut für Brainstorming oder um einen Workflow zu skizzieren. Fertiges Beispiel: `notizen/beispiel-canvas.canvas` — dieselben fünf Notizen wie in der Graph-Ansicht aus Kapitel 3, nur räumlich statt automatisch angeordnet, plus eine Kommentar-Karte.
 
 ---
 

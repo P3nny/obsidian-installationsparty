@@ -1,6 +1,6 @@
 # Bonus: Git
 
-*Voraussetzung: Git ist installiert (Installation, Teil E). Die Grundlagen aus dem Bonus-Kapitel Command Line helfen, sind aber kein Muss — jeder Befehl steht hier zum Kopieren.*
+*Voraussetzung: Git ist installiert ([[00-installation#Teil E: Vor dem Bonus-Kapitel Git (optional)|Installation, Teil E]]). Die Grundlagen aus dem Bonus-Kapitel Command Line helfen, sind aber kein Muss — jeder Befehl steht hier zum Kopieren.*
 
 ## Was ist Git — und warum kennt es jede Entwicklerin?
 
@@ -40,7 +40,7 @@ Nimm dieselbe E-Mail-Adresse wie bei GitHub, dann werden deine Commits dort auch
 
 ## Schritt 3: Aus deinem Vault ein Repository machen
 
-Falls du das Workshop-Material als **ZIP heruntergeladen** hast (so wie in Teil A beschrieben), ist dein Ordner noch **kein** Repository — die ZIP-Datei enthält keine Git-Daten. Das holst du jetzt nach.
+Falls du das Workshop-Material als **ZIP heruntergeladen** hast (so wie in [[00-installation#Teil A: Basis — vor Kapitel 1|Teil A]] beschrieben), ist dein Ordner noch **kein** Repository — die ZIP-Datei enthält keine Git-Daten. Das holst du jetzt nach.
 
 Öffne ein Terminal in deinem Vault-Ordner und tippe:
 
@@ -141,7 +141,7 @@ Den Ablauf einmal von Hand gemacht zu haben, lohnt sich: Du weißt jetzt, was pa
 1. **Einstellungen** → **Externe Erweiterungen** → **Durchsuchen**
 2. Nach **„Obsidian Git"** suchen, installieren, aktivieren
 
-Das Plugin nutzt das Git, das du in Teil E installiert hast, und die Anmeldung aus Schritt 7 — es ist also sofort einsatzbereit. Was es dir abnimmt:
+Das Plugin nutzt das Git, das du in [[00-installation#Teil E: Vor dem Bonus-Kapitel Git (optional)|Teil E]] installiert hast, und die Anmeldung aus Schritt 7 — es ist also sofort einsatzbereit. Was es dir abnimmt:
 
 | Funktion                     | Was sie tut                                                              |
 | ---------------------------- | ------------------------------------------------------------------------ |

@@ -18,7 +18,7 @@ Claudian ist das Obsidian-Plugin, das Claude direkt in deinen Vault holt. Im Hin
 
 ## Bevor es losgeht: Claudian verbinden
 
-*Falls du das schon in der Installation (Teil B) erledigt hast, überspringe diesen Abschnitt.*
+*Falls du das schon in der Installation ([[00-installation#Teil B: Vor Kapitel 4 (KI-Second-Brain)|Teil B]]) erledigt hast, überspringe diesen Abschnitt.*
 
 1. Einstellungen → **Externe Erweiterungen** → **Durchsuchen**
 2. **„Claudian"** suchen, installieren, aktivieren
@@ -102,8 +102,8 @@ Schau in der Dateiliste nach — die Notiz ist wirklich da, ganz ohne dass du se
 | Ablauf | eine Antwort, fertig | plant, handelt, prüft das Ergebnis, bessert nach |
 | Beispiel hier | „So könnte deine Notiz aussehen: ..." | Notiz existiert tatsächlich im Vault |
 
-Dafür nutzt Claudian im Hintergrund dieselbe Kommandozeile, die du in der Installation (Schritt 5) mit `claude --version` kurz angetestet hast — nur eben automatisiert statt von dir selbst getippt.
+Dafür nutzt Claudian im Hintergrund dieselbe Kommandozeile, die du in der Installation ([[00-installation#Schritt 5: Claude Code CLI installieren|Schritt 5]]) mit `claude --version` kurz angetestet hast — nur eben automatisiert statt von dir selbst getippt.
 
-**Neugierig, was da im Hintergrund wirklich passiert?** Genau darum geht's im **Bonus-Kapitel Command Line**.
+**Neugierig, was da im Hintergrund wirklich passiert?** Genau darum geht's im **Bonus-Kapitel [[1-command-line]]**.
 
-**Weiter geht's in Teil 2:** Wie Wissen überhaupt in den Vault kommt — per Web Clipper aus dem Browser und als hingekritzelte Rohnotiz.
+**Weiter geht's in Teil 2 [[2-wissen-reinholen]]:** Wie Wissen überhaupt in den Vault kommt — per Web Clipper aus dem Browser und als hingekritzelte Rohnotiz.

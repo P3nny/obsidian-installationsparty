@@ -1,0 +1,16 @@
+{
+	"nodes":[
+		{"id":"n1zettelkasten01","type":"file","file":"notizen/Zettelkasten.md","x":-460,"y":-120,"width":280,"height":200},
+		{"id":"n2secondbrain0102","type":"file","file":"notizen/Second Brain.md","x":-80,"y":-120,"width":280,"height":200},
+		{"id":"n3okfformat000103","type":"file","file":"notizen/OKF.md","x":300,"y":-120,"width":280,"height":200},
+		{"id":"n4obsidiantool0104","type":"file","file":"notizen/Obsidian.md","x":300,"y":160,"width":280,"height":200},
+		{"id":"n5kiworkflow00105","type":"file","file":"notizen/Second Brain KI-Workflow.md","x":-80,"y":160,"width":280,"height":200},
+		{"id":"n6kommentarcard06","type":"text","x":-460,"y":160,"width":280,"height":200,"color":"3","text":"**So präsentiere ich das Wissenssystem einer Kundin:**\n\nErst die Methode (Zettelkasten), dann das Prinzip (Second Brain), dann das Format, das es maschinenlesbar macht (OKF) — und am Ende das Werkzeug, in dem alles zusammenläuft (Obsidian).\n\nDieselben fünf Notizen, die du auch in der Graph-Ansicht siehst — hier nur räumlich statt automatisch angeordnet."}
+	],
+	"edges":[
+		{"id":"e1zettelsecond01","fromNode":"n1zettelkasten01","fromSide":"right","toNode":"n2secondbrain0102","toSide":"left"},
+		{"id":"e2secondokf00002","fromNode":"n2secondbrain0102","fromSide":"right","toNode":"n3okfformat000103","toSide":"left"},
+		{"id":"e3okfobsidian0003","fromNode":"n3okfformat000103","fromSide":"bottom","toNode":"n4obsidiantool0104","toSide":"top"},
+		{"id":"e4workflowobsi04","fromNode":"n5kiworkflow00105","fromSide":"right","toNode":"n4obsidiantool0104","toSide":"left"}
+	]
+}

@@ -24,8 +24,8 @@ Auch wenn du nicht live dabei bist: Das Material hier ist so geschrieben, dass e
 
 ## So nutzt du dieses Repo
 
-1. Starte bei [[00-installation]]
-2. Danach geht es im Ordnr `01-obsidian-grundlagen` weiter 
+1. Starte bei [`00-installation.md`](./00-installation.md)
+2. Danach geht es im Ordner `01-obsidian-und-markdown` weiter
 
 ## Herkunft & Community
 
@@ -33,7 +33,11 @@ Dieser Workshop ist aus dem Kurs ["AI Done Right"](https://www.skool.com/aidoner
 
 ## Über die Organisatorin
 
+<img src="notizen/bilder/me_twinkle.gif" width="120" alt="Pixel-Avatar von Patricia">
+
 Ich baue mittelfristig ein Angebot als Coachin auf, das Frauen die Data- und Coding-Literacy vermittelt, die sie brauchen, um bei der KI-Transformation mitzugestalten statt nur zuzuschauen. Diese Installationsparty ist ein erster Schritt davon — niederschwellig, aber fordernd genug, um wirklich etwas mitzunehmen. [Patricia Ennenbach](https://www.linkedin.com/in/patricia-ennenbach/)
+
+Der Workshop ist und bleibt kostenlos. Wer trotzdem etwas dalassen möchte: über den **„Sponsor"**-Button oben auf dieser Seite oder direkt per [PayPal](https://www.paypal.com/paypalme/moneyp3nny) — völlig freiwillig, hilft aber, mehr davon zu machen.
 
 ## Lizenz
 

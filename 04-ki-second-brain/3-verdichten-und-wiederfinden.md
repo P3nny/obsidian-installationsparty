@@ -83,6 +83,6 @@ Mehr ist der Kreislauf nicht. Der Unterschied zu einem Ordner voller Dateien lie
 
 ---
 
-**Weiter geht's in Teil 4:** Jetzt läuft derselbe Kreislauf einmal mit deinem eigenen Wissen, nicht mit unseren Beispielen.
+**Weiter geht's in Teil [[4-dein-eigenes-wissen]]:** Wenn Du magst, läuft derselbe Kreislauf jetzt einmal mit deinem eigenen Wissen, nicht mit unseren Beispielen.
 
 [^1]: Andrej Karpathy über seine Arbeitsweise mit LLM-Wissensbasen, X, 2. April 2026. Liegt als Beispiel-Clip in `Clippings/`.

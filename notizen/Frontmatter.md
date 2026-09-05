@@ -18,3 +18,6 @@ Die Schreibweise heißt **YAML**: `schlüssel: wert`, eine Angabe pro Zeile; ein
 In Obsidians Live-Vorschau erscheint Frontmatter als „Eigenschaften"-Block; in der Quellcode-Ansicht siehst du den rohen Text zwischen den `---`-Linien.
 
 Übrigens: Diese Notiz über Frontmatter hat selbst eins — schau oben.
+
+[[1-vaults-und-graph-view]]
+

@@ -2,7 +2,7 @@
 
 *In den ersten vier Teilen hast du mehrfach `type` und `status` ins [[Frontmatter]] geschrieben — mal selbst, meistens von der KI. Dafür gibt es eine ausformulierte Konvention, und die heißt OKF. Dieser Teil ist die Vertiefung für alle, die es jetzt genauer wissen wollen. Kein Muss, um mit dem Workshop fertig zu sein — aber ein Blick unter die Haube.*
 
-Basiert auf der offiziellen Spezifikation von Google: [github.com/GoogleCloudPlatform/knowledge-catalog](https://github.com/GoogleCloudPlatform/knowledge-catalog/blob/main/okf/SPEC.md). Für diesen Workshop reicht ein vereinfachter Ausschnitt der Kernfelder.
+Basiert auf der offiziellen Spezifikation von Google, aktuell Version 0.2: [github.com/GoogleCloudPlatform/knowledge-catalog](https://github.com/GoogleCloudPlatform/knowledge-catalog/blob/main/okf/SPEC.md). Für diesen Workshop reicht ein vereinfachter Ausschnitt der Kernfelder. Noch eine junge, sich entwickelnde Spezifikation — für Experimente wie diesen Workshop ideal, für unternehmenskritische Systeme noch früh dran.
 
 ## Was ist OKF
 
@@ -18,7 +18,18 @@ Deshalb hat Google für OKF bewusst kein neues Werkzeug gebaut, sondern nur eine
 
 OKF nennt eine einzelne Datei ein **Concept** und die ganze Sammlung ein **Bundle**. Das klingt akademisch, ist aber praktisch: Ein Concept ist genau eine Notiz — Frontmatter oben, Markdown darunter. Ein Bundle ist ein Ordnerbaum voller solcher Dateien, der für sich allein funktioniert.
 
-**Dein Vault ist ein Bundle.** Mehr Übersetzung braucht es nicht.
+**Dein Vault ist ein Bundle.** 
+
+### Zwei optionale Sonderdateien: `index.md` und `log.md`
+
+Neben normalen Concepts kennt ein Bundle zwei besondere Dateinamen, die in jedem Ordner liegen dürfen — auch im Bundle-Root:
+
+- **`index.md`** — ein Überblick, was in diesem Ordner zu finden ist. Sinn: Mensch oder KI sehen erst, was da ist, bevor sie einzelne Dateien öffnen müssen.
+- **`log.md`** — die Änderungshistorie für diesen Ordner: eine chronologische Liste, neueste zuerst, mit Einträgen wie **Update**, **Creation** oder **Deprecation**.
+
+Der Unterschied zu `generated`/`verified` weiter unten: Die Frontmatter-Felder sagen etwas über eine einzelne Notiz. `log.md` erzählt die Geschichte eines ganzen Ordners.
+
+*Zum Ausprobieren: Frag Claudian, ob es dir eine `index.md` für den Ordner `notizen/` schreibt, die kurz zusammenfasst, was dort liegt.*
 
 ## Die Felder
 
@@ -78,6 +89,8 @@ Egal ob wissenschaftliches Arbeiten oder eigenes Business — dasselbe Feldset t
 - `status: draft/stable` zeigt, was noch Rohmaterial ist und was belastbar zitier- bzw. verwendbar ist
 - `stale_after` macht sichtbar, wann sich verändernde Daten oder Abläufe erneut geprüft werden müssen
 - In jedem Fall wird die eigene Notizsammlung KI-lesbar und -durchsuchbar, ohne zusätzliches Tool
+
+*Zwei ausführlichere Anwendungsfälle mit echten Beispielen (ein BigQuery-Agent, der 200 Tabellen dokumentiert; ein Support-Bot, der aus geprüftem Wissen statt Trainingsdaten antwortet) plus die Abgrenzung zu klassischem RAG stehen in [[OKF-Anwendungsfälle]].*
 
 ## Wofür OKF NICHT gedacht ist
 

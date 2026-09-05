@@ -50,7 +50,7 @@ Mehr ist es nicht. Und weil es simpler Text ist, kann eine KI diese Felder genau
 
 *Optional — die Erweiterung ist kein Pflicht-Install. Ohne sie arbeitest du einfach mit den zwei Beispiel-Clips in `Clippings/` weiter, alles Folgende funktioniert genauso.*
 
-Installation siehe `00-installation.md`, **Teil B, Schritt 7b**.
+Installation siehe [[00-installation#Schritt 7b: Web Clipper installieren (optional)|Installation, Teil B, Schritt 7b]].
 
 1. Such dir eine Seite, die dich wirklich interessiert — ein Blogpost, ein Rezept, eine Doku-Seite.
 2. Klick auf das Clipper-Symbol im Browser. Du siehst eine Vorschau des Markdowns und die erkannten Eigenschaften.
@@ -74,6 +74,6 @@ Teuer ist erst das Aufräumen. Und das machst du ab jetzt nicht mehr selbst.
 
 ---
 
-**Weiter geht's in Teil 3:** Claude verdichtet beides — Clipping und Rohnotiz — zu verknüpftem Wissen, und du fragst es danach ab.
+**Weiter geht's in Teil  [[3-verdichten-und-wiederfinden]]:** Claude verdichtet beides — Clipping und Rohnotiz — zu verknüpftem Wissen, und du fragst es danach ab.
 
 [^1]: Tom Liu, „Building Your Second Brain using Claude Code and Obsidian — Part 1", Medium, 6. Mai 2026. Liegt als Beispiel-Clip in `Clippings/`.
