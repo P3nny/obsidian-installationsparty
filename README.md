@@ -37,7 +37,7 @@ Dieser Workshop ist aus dem Kurs ["AI Done Right"](https://www.skool.com/aidoner
 
 Ich baue mittelfristig ein Angebot als Coachin auf, das Frauen* und TIN*-Personen die Data- und Coding-Literacy vermittelt, die sie brauchen, um bei der KI-Transformation mitzugestalten statt nur zuzuschauen. Diese Installationsparty ist ein erster Schritt davon — niederschwellig, aber fordernd genug, um wirklich etwas mitzunehmen. [Patricia Ennenbach](https://www.linkedin.com/in/patricia-ennenbach/)
 
-Der Workshop ist und bleibt kostenlos. Wer trotzdem etwas dalassen möchte: über den **„Sponsor"**-Button oben auf dieser Seite oder direkt per [PayPal](https://www.paypal.com/paypalme/moneyp3nny) — völlig freiwillig, hilft aber, mehr davon zu machen.
+Der Workshop ist kostenlos. Wer trotzdem etwas dalassen möchte: über den **„Sponsor"**-Button oben auf dieser Seite oder direkt per [PayPal](https://www.paypal.com/paypalme/moneyp3nny) — völlig freiwillig, hilft aber, mehr davon zu machen.
 
 ## Lizenz
 
