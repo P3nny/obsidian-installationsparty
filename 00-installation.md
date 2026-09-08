@@ -20,7 +20,7 @@ Die Übungen sind KI-generiert und teilweise nicht intuitiv lösbar. Spring gern
 - **Web Clipper** — Artikel aus dem Browser als fertig formatierte Notiz ins Vault holen
 - Der **Second-Brain-Kreislauf**: roh reinwerfen, von der KI verdichten und verlinken lassen, per Frage wiederfinden
 - **Open Knowledge Format (OKF)** — ein leichtgewichtiges Format, um Notizen mit Struktur, Herkunft und Vertrauensstatus zu versehen
-- **Bonus:** Grundlagen der Command Line — genug, um sich sicher zu bewegen
+- **Bonus:** Grundlagen der Command Line — keine Angst vor dem schwarzen Fenster
 - **Bonus:** Git-Grundlagen — was es ist, wofür man es braucht, erster Commit und Push mit dem eigenen Vault als Repo
 - Bonus **Obsidian-Power-Usecases** (Templates, Cron, Bases, Canvas )
 
