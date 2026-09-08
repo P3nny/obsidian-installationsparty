@@ -73,8 +73,8 @@ So kommst du an die Dateien:
 
 - Rufe die Webseite [obsidian.md](https://obsidian.md) auf
 - Lade die passende Version für dein Betriebssystem herunter (Windows / Mac / Linux)
-- Installiere Obsidian wie Du sonst Programmie installierst
-- Öffne Obsidian noch nicht bzw. lass den Startdialog erst mal stehen — der ist gleich [[#Schritt 3: Vault in Obsidian öffnen|Schritt 3]]
+- Installiere Obsidian wie Du sonst Programme installierst
+- Öffne Obsidian noch nicht bzw. lass den Startdialog erst mal stehen — geht direkt weiter mit [[#Schritt 3: Vault in Obsidian öffnen|Schritt 3]]
 
 ## Schritt 3: Vault in Obsidian öffnen
 
@@ -98,7 +98,7 @@ Damit ist Teil A abgeschlossen. Die Kapitel 1 bis 3 brauchen nichts weiter als O
 
 In Kapitel 4 steuerst du Claude direkt aus Obsidian heraus. Dafür brauchst du drei Bausteine: ein Terminal, die Claude Code CLI und das Obsidian-Plugin Claudian.
 
-Damit begegnet dir hier zum ersten Mal das **Terminal** — das Fenster mit dem blinkenden Cursor, in das man Befehle tippt. Dass das im ersten Moment einschüchternd wirkt, geht fast allen so. Tatsächlich ist es nur eine andere Art, dem Rechner zu sagen, was er tun soll: tippen statt klicken. Auswendig lernen musst du nichts, jeden Befehl findest du hier zum Kopieren — und wer sich später darauf einlässt, hat damit erstaunlich schnell ein Werkzeug in der Hand, das frau nicht mehr hergeben will (mehr dazu im Bonus-Kapitel Command Line).
+Damit begegnet dir hier zum ersten Mal das **Terminal** — das Fenster mit dem blinkenden Cursor, in das man Befehle tippt. Dass das im ersten Moment einschüchternd wirkt, geht fast allen so. Tatsächlich ist es nur eine andere Art, dem Rechner zu sagen, was er tun soll: tippen statt klicken. Auswendig lernen musst du nichts, jeden Befehl findest du hier zum Kopieren — und wer sich später darauf einlässt, hat damit erstaunlich schnell ein mächtiges Werkzeug in der Hand, das frau nicht mehr hergeben will (mehr dazu im Bonus-Kapitel Command Line).
 
 ![[keine_panik.png]]
 
