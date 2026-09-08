@@ -44,3 +44,7 @@ Unten in jeder Notiz zeigt Obsidian an, wer *auf diese Notiz* verlinkt — das i
 3. **Graph-Ansicht:** Unter den fünf Beispiel-Notizen ist `Obsidian.md` am stärksten vernetzt — 2 ausgehende Links (zu Zettelkasten, Second Brain) plus 2 eingehende Links (von OKF, KI-Workflow) ergeben 4 Verbindungen. *Nebenbei fällt dir vielleicht auf, dass auch die Kapitel-Notizen selbst im Graphen auftauchen und z. B. auf [[Frontmatter]] verlinken — das Workshop-Material ist selbst ein kleines Second Brain.*
 
 4. **Rückverweise-Panel:** In `Obsidian.md` zeigt das Rückverweise-Panel `OKF.md` und `KI-Workflow.md` — das sind die beiden Notizen, die auf `Obsidian.md` verlinken.
+
+Ready for AI? [[1-plugin-setup-und-chat]]
+Mehr dazu, was Obsidian auch ohne KI kann: [[1-power-usecase]]
+

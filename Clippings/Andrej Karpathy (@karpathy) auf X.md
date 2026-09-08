@@ -1,12 +1,13 @@
 ---
-title: "Andrej Karpathy (@karpathy) auf X"
-source: "https://x.com/karpathy/status/2039805659525644595"
+title: Andrej Karpathy (@karpathy) auf X
+source: https://x.com/karpathy/status/2039805659525644595
 author:
+  - Andrej Karpathy
 published: 2026-04-02
 created: 2026-09-02
 description: "LLM Knowledge BasesSomething I'm finding very useful recently: using LLMs to build personal knowledge bases for various topics of research interest. In this way, a large fraction of my recent token throughput is going less into manipulating code, and more into manipulating knowledge (stored as ma…"
 tags:
-  - "clippings"
+  - clippings
 ---
 [Andrej Karpathy](https://x.com/karpathy)
 

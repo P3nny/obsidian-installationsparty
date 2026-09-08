@@ -142,7 +142,7 @@ Mit dem Werkzeug **ImageMagick** lässt sich aus einer Reihe von Bildern in Seku
 
 **Installation:** siehe [[00-installation#Schritt 11: Werkzeuge für die Spaß-Übungen|Installation, Teil D, Schritt 11]] — dort auch die Variante ohne Adminrechte ([[Ohne Adminrechte]]).
 
-**Übung:** Wechsle zunächst in deinen Vault-Ordner (mit `cd` oder im Explorer/Finder auf den Ordner `notizen/bilder/marie` klicken und „Im Terminal öffnen"), dann baue die Animation:
+**Übung:** Wechsle zunächst in `/notizen/bilder/marie` (mit `cd` oder im Explorer/Finder auf den Ordner `notizen/bilder/marie` klicken und „Im Terminal öffnen"), dann baue die Animation:
 
 ```
 convert -delay 60 -loop 0 marie_{0..23}.png mariechen.gif

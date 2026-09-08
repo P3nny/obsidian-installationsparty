@@ -29,7 +29,7 @@ Neben normalen Concepts kennt ein Bundle zwei besondere Dateinamen, die in jedem
 
 Der Unterschied zu `generated`/`verified` weiter unten: Die Frontmatter-Felder sagen etwas über eine einzelne Notiz. `log.md` erzählt die Geschichte eines ganzen Ordners.
 
-*Zum Ausprobieren: Frag Claudian, ob es dir eine `index.md` für den Ordner `notizen/` schreibt, die kurz zusammenfasst, was dort liegt.*
+**Echte Beispiele liegen schon im Vault:** `notizen/index.md` (Überblick über alle Begriffsnotizen) und `notizen/log.md` (dessen Änderungshistorie, aus der echten Git-Historie dieses Repos rekonstruiert, kein erfundenes Beispiel). Schau beide kurz an, bevor du weiterliest.
 
 ## Die Felder
 

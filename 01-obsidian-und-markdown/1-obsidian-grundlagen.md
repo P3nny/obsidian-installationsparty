@@ -53,3 +53,6 @@ Die Obsidian-Community ist ungewöhnlich aktiv und hat für fast jeden Anwendung
 4. **Ansichtsmodi:** Den Umschalter findest du oben rechts in der Notiz (Stift-/Buch-Symbol), alternativ `Cmd/Ctrl+E` zum Wechseln zwischen Bearbeiten und Lesen. Zwischen Live-Vorschau und Quellcode-Ansicht wechselst du für die aktuelle Notiz über die Befehlspalette (`Cmd/Ctrl+P`) → „Quellcode-Ansicht umschalten"; dauerhaft stellst du das unter Einstellungen → Editor → „Standard-Bearbeitungsmodus" ein. Woran du erkennst, wo du bist: Im Lesemodus lässt sich kein Cursor setzen, in der Live-Vorschau siehst du die Markdown-Zeichen (`**`, `##`) nur in der Zeile mit dem Cursor, in der Quellcode-Ansicht in allen Zeilen.
 
 5. **Ordner vs. Tags:** Ein Tag entsteht einfach durch `#` direkt im Notiztext, z. B. `#beispiel`. Er erscheint danach automatisch in der Tags-Übersicht in der Seitenleiste.
+
+Weiter mit: 
+[[1-vaults-und-graph-view]] oder erst [[1-sync]]
