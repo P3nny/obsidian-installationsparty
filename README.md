@@ -22,6 +22,8 @@ Der Workshop findet live per Zoom statt, in kleinen Gruppen (3–4 Teilnehmerinn
 
 Auch wenn du nicht live dabei bist: Das Material hier ist so geschrieben, dass es auch im Selbststudium funktioniert.
 
+**Workshop fürs eigene Team oder die eigene Gruppe?** Ich biete die Installationsparty auch als Vor-Ort-Training an — live, mit derselben Mischung aus Anleitung und Raum zum Selbst-Ausprobieren. Interesse? Meld dich über [LinkedIn](https://www.linkedin.com/in/patricia-ennenbach/).
+
 ## So nutzt du dieses Repo
 
 1. Starte bei [`00-installation.md`](./00-installation.md)
