@@ -16,14 +16,9 @@ Dieser erste Teil legt die Basis für alles Weitere.
 
 Claudian ist das Obsidian-Plugin, das Claude direkt in deinen Vault holt. Im Hintergrund nutzt es die **Claude Code CLI** — dieselbe Technik, mit der Entwicklerinnen Claude im Terminal steuern, nur eben eingebettet in Obsidian statt in einem separaten Fenster.
 
-## Bevor es losgeht: Claudian verbinden
+*Häufige Frage an dieser Stelle: Werden meine Notizen fürs KI-Training verwendet, und warum weiß Obsidian nichts von früheren Chats? Beides beantwortet [[Claude Code Datenfluss]].*
 
-*Falls du das schon in der Installation ([[00-installation#Teil B: Vor Kapitel 4 (KI-Second-Brain)|Teil B]]) erledigt hast, überspringe diesen Abschnitt.*
-
-1. Einstellungen → **Externe Erweiterungen** → **Durchsuchen**
-2. **„Claudian"** suchen, installieren, aktivieren
-
-Fertig — Claudian erkennt die in der Installation eingerichtete, angemeldete Claude-Code-CLI automatisch. Keine weitere Konfiguration nötig.
+**Voraussetzung für dieses Kapitel:** Du solltest dein Terminal kennen und Claude Code CLI und Claudian müssen installiert sein. Falls Du das noch nicht hast, bitte erst zu [[00-installation#Teil B: Vor Kapitel 4 (KI-Second-Brain)|Installation, Teil B]]. 
 
 ---
 

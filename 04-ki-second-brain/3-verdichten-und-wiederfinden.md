@@ -65,7 +65,7 @@ Zwei Dinge, die aus einem Notizhaufen erst ein wachsendes System machen:
 
 > „Schreib das Ergebnis als neue Notiz `Offene-Punkte-Lotos-Phase-2.md` und verlink sie mit dem Kundenprojekt."
 
-Damit zahlt jede Frage, die du stellst, aufs Vault ein, statt im Chatverlauf zu versanden.
+Damit zahlt jede Frage, die du stellst, aufs Vault ein, statt im Chatverlauf zu versanden — und genau das ist auch der einzige Weg, wie ein Gesprächsinhalt dauerhaft Teil deines Second Brain wird. Ohne diesen Schritt bleibt der Chatverlauf nämlich außerhalb des Vaults liegen: [[Claude Code Datenfluss]].
 
 **Regelmäßig durchputzen lassen.** Was wächst, verwahrlost auch:
 
@@ -80,6 +80,32 @@ Die letzte Frage ist die interessanteste — da schlägt die KI Verbindungen vor
 3. **Fragen statt suchen** — und die Antwort wieder ablegen
 
 Mehr ist der Kreislauf nicht. Der Unterschied zu einem Ordner voller Dateien liegt nur darin, dass Schritt 2 überhaupt stattfindet — weil ihn niemand mehr von Hand machen muss.
+
+## Bonus: Die Konventionen nicht bei jeder Frage neu erklären
+
+Dir ist wahrscheinlich aufgefallen: Du erklärst Claude in jedem Prompt aufs Neue, was `type` bedeutet oder wo `notizen/` liegt. Das muss nicht sein.
+
+Legt eine Datei namens **`CLAUDE.md`** im Vault-Root an, liest Claude Code sie automatisch bei **jeder** Session — ganz ohne Befehl, ganz ohne Prompt. Genau die Datei, die diesen ganzen Workshop hier steuert, ist so eine Datei; du hast sie die ganze Zeit im Hintergrund wirken sehen, ohne sie zu bemerken.
+
+Ein einfacher Startpunkt für deinen eigenen Vault:
+
+```markdown
+# Mein Second Brain
+
+## Konventionen
+- Jede Notiz bekommt im Frontmatter mindestens `type` (z. B. Projekt, Konzept, Präferenz).
+- Geprüfte Erkenntnisse zusätzlich `status: draft` oder `status: stable`.
+- Begriffsnotizen liegen in `notizen/`, verknüpft über `[[Wikilinks]]`.
+
+## Wie du mir helfen sollst
+- Beim Anlegen neuer Notizen: passenden `type` wählen, mit bestehenden Notizen verlinken, wo es inhaltlich passt.
+- Kombinierst du für eine Antwort mehrere Notizen: sag, welche.
+- Soll ein Ergebnis dauerhaft bleiben: leg dafür eine Notiz an, statt es nur im Chat zu sagen.
+```
+
+**Übung, falls Zeit bleibt:** Leg diese Datei an, dann frag in einer neuen Session „Was für Notiz-Typen gibt es in diesem Vault?" — ohne es vorher erklärt zu haben.
+
+*Mehr zum Mechanismus dahinter (was Claude sonst noch automatisch mitschreibt): [[Claude Code Datenfluss]].*
 
 ---
 

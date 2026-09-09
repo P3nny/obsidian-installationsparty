@@ -1,6 +1,6 @@
 # Bonus: Git
 
-*Voraussetzung: Git ist installiert ([[00-installation#Teil E: Vor dem Bonus-Kapitel Git (optional)|Installation, Teil E]]). Die Grundlagen aus dem Bonus-Kapitel Command Line helfen, sind aber kein Muss — jeder Befehl steht hier zum Kopieren.*
+*Voraussetzung: Git ist installiert ([[00-installation-bonus#Teil E: Vor dem Bonus-Kapitel Git (optional)|Installation, Teil E]]). Die Grundlagen aus dem Bonus-Kapitel Command Line helfen, sind aber kein Muss — jeder Befehl steht hier zum Kopieren.*
 
 ## Was ist Git — und warum kennt es jede Entwicklerin?
 
@@ -66,6 +66,8 @@ Lege dafür im Vault-Hauptordner eine Datei namens `.gitignore` an (der Punkt am
 ```
 
 Du kannst die Datei direkt in Obsidian anlegen. Die restlichen `.obsidian`-Dateien lässt du bewusst drin — so wandern deine Einstellungen und Plugin-Konfigurationen mit auf das zweite Gerät.
+
+*Deine Chat-Verläufe mit Claude landen übrigens nicht im Vault und damit auch nicht in diesem Repository — Claude Code speichert sie zentral unter `~/.claude/projects/`, außerhalb des Vault-Ordners. Mehr dazu und warum das auch gut so ist: [[Claude Code Datenfluss]].*
 
 ## Schritt 5: Der erste Commit
 
@@ -141,7 +143,7 @@ Den Ablauf einmal von Hand gemacht zu haben, lohnt sich: Du weißt jetzt, was pa
 1. **Einstellungen** → **Externe Erweiterungen** → **Durchsuchen**
 2. Nach **„Obsidian Git"** suchen, installieren, aktivieren
 
-Das Plugin nutzt das Git, das du in [[00-installation#Teil E: Vor dem Bonus-Kapitel Git (optional)|Teil E]] installiert hast, und die Anmeldung aus Schritt 7 — es ist also sofort einsatzbereit. Was es dir abnimmt:
+Das Plugin nutzt das Git, das du in [[00-installation-bonus#Teil E: Vor dem Bonus-Kapitel Git (optional)|Teil E]] installiert hast, und die Anmeldung aus Schritt 7 — es ist also sofort einsatzbereit. Was es dir abnimmt:
 
 | Funktion                     | Was sie tut                                                              |
 | ---------------------------- | ------------------------------------------------------------------------ |

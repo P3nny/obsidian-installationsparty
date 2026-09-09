@@ -7,7 +7,8 @@ Live-Workshop (Zoom + Breakout-Rooms) für eine technisch heterogene, überwiege
 ## Aktuelle Struktur (Stand: siehe Ordner)
 
 ```
-00-installation.md      (im Root, nicht in einem Kapitel-Ordner) Gestaffelt entlang der Kapitel-Ordner: A=Obsidian+Vault (vor Kap. 1), B=Terminal/Claude-Code-CLI/Claudian (vor Kap. 4), C=Kern-Plugins prüfen + optional Cron (vor Kap. 5), D=Command-Line-Werkzeuge (optional), E=Git (optional)
+00-installation.md      Pflichtteil: A=Obsidian+Vault (vor Kap. 1), B=Terminal/Claude-Code-CLI/Claudian (vor Kap. 4)
+00-installation-bonus.md Optionale Teile: C=Kern-Plugins+Cron (vor Power-Usecase), D=Command-Line-Werkzeuge, E=Git — bewusst getrennt gehalten, damit Teilnehmerinnen, die nur A+B brauchen, nicht durch die Bonus-Schritte scrollen müssen
 01-obsidian-und-markdown/
 02-sync-mehrere-geraete/
 03-vaults-und-graph-view/
@@ -26,7 +27,8 @@ bonus-git/                  Git-Grundlagen + Plugin „Obsidian Git"
 Jede Änderung soll so wenig Tokens wie möglich kosten — beim Schreiben *und* bei allen künftigen Änderungen.
 
 - **Eine Information gehört an genau eine Stelle.** Vor dem Schreiben prüfen: Steht das schon irgendwo? Wenn ja, dorthin verlinken statt wiederholen. Was an drei Stellen steht, muss später dreimal geändert werden — und wird garantiert irgendwo vergessen.
-- **Verweise statt Kopien.** Das Konzept in die Begriffsnotiz (`notizen/`), das Kapitel verlinkt nur `[[Begriff]]`. Installationsschritte gehören ausschließlich in `00-installation.md`; Kapitel verweisen auf „Teil B, Schritt 7b" statt die Anleitung zu wiederholen.
+- **Verweise statt Kopien.** Das Konzept in die Begriffsnotiz (`notizen/`), das Kapitel verlinkt nur `[[Begriff]]`. Installationsschritte gehören ausschließlich in `00-installation.md`/`00-installation-bonus.md`; Kapitel verweisen auf „Teil B, Schritt 7b" statt die Anleitung zu wiederholen. Wiederkehrende Konzepte (z. B. PATH) gehören in eine eigene Notiz statt an mehreren Installationsschritten neu erklärt zu werden — siehe [[PATH]].
+- **Installations-Texte extra knapp halten.** Teilnehmerinnen lesen hier kaum Fließtext, sie springen von Codeblock zu Codeblock. Hintergrunderklärungen (das "Warum") gehören ins Kapitel oder in eine Notiz, nicht in die Installationsanleitung — dort zählt nur die nötige Handlung plus der Fehlerfall.
 - **Beim Ändern nur den betroffenen Absatz anfassen**, nicht ganze Dateien neu schreiben. Gezielte Edits statt Komplett-Neufassungen.
 - **Vorsicht bei Redundanz-Fallen** in diesem Repo: Kapitelstruktur steht in `README.md`, `CLAUDE.md` und der Tabelle in `00-installation.md`; Werkzeug-Listen in `README.md` und `00-installation.md`. Beim Umbauen alle drei prüfen — oder besser: nicht noch eine vierte Stelle schaffen.
 - **Erst lesen, was nötig ist.** Gezielt greppen statt ganze Ordner einlesen.

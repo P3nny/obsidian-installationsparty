@@ -28,6 +28,9 @@ _(Entwurf zum Copy-Paste in CryptPad-Formular oder ein vergleichbares Tool)_
 - Nein (z. B. Firmenrechner mit eingeschränkten Rechten)
 - Weiß ich nicht
 
+6. Welche KI nutzt Du? MIt welchem Account? Claude pro? Claude Api Key? Langdock?
+ > Textfeld
+
 **6. Wie viel Vorerfahrung bringst du mit?** _(Einfachauswahl)_
 
 - Keine bis wenig (komplette Einsteigerin)

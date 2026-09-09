@@ -15,3 +15,5 @@ Ein klassischer Chatbot bekommt Text und gibt Text zurück. Eine agentische KI b
 Genau das macht Claudian in Kapitel 4: Es hat Zugriff auf deinen [[Vault]] und kann darin lesen und schreiben. Deshalb kann es Fragen über *deine* Notizen beantworten, die im Internet nirgends stehen — und Änderungen direkt ausführen, statt sie nur vorzuschlagen.
 
 Die Kehrseite: Was tatsächlich handeln kann, kann auch tatsächlich etwas kaputt machen. Deshalb fragt Claudian vor schreibenden Zugriffen nach — und deshalb ist ein Backup über [[Git]] eine gute Idee, bevor man eine KI auf den ganzen Vault loslässt.
+
+Was genau mit dem passiert, was Claude dabei liest — und wo eigene Chat-Sessions eigentlich landen: [[Claude Code Datenfluss]].

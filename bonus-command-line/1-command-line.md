@@ -14,7 +14,7 @@ Auswendig lernen musst du davon nichts, dafür hast du inzwischen eine KI. Aber 
 
 - **macOS:** Launchpad → Andere → Terminal
 - **Linux:** meist unter Anwendungen → Zubehör → Terminal (je nach System leicht anders)
-- **Windows mit Git Bash** (aus [[00-installation#Schritt 10: Ein besseres Windows-Terminal|Installation, Schritt 10]]): Windows-Taste drücken, „**Git Bash**" eingeben, Enter — öffnet ein eigenes Fenster. Empfohlen für dieses Kapitel: Alle Befehle darin funktionieren exakt wie auf Mac/Linux beschrieben, ganz ohne PowerShell-Alternativen.
+- **Windows mit Git Bash** (aus [[00-installation-bonus#Schritt 10: Ein besseres Windows-Terminal|Installation, Schritt 10]]): Windows-Taste drücken, „**Git Bash**" eingeben, Enter — öffnet ein eigenes Fenster. Empfohlen für dieses Kapitel: Alle Befehle darin funktionieren exakt wie auf Mac/Linux beschrieben, ganz ohne PowerShell-Alternativen.
 - **Windows ohne Git Bash:** Windows-Taste drücken, „Terminal", „PowerShell" oder „cmd" eingeben (je nachdem, was installiert ist — siehe nächster Abschnitt) und Enter drücken
 
 Du siehst danach ein Fenster mit einem blinkenden Cursor, der auf deine Eingabe wartet — das nennt man den **Prompt**. Auf Mac/Linux endet er meist mit `$`, auf Windows mit `>`. Diesen Anfangsteil tippst du nie selbst mit, er ist schon da.
@@ -140,7 +140,7 @@ Mit dem Werkzeug **ImageMagick** lässt sich aus einer Reihe von Bildern in Seku
 
 ![[unicorn.gif]]
 
-**Installation:** siehe [[00-installation#Schritt 11: Werkzeuge für die Spaß-Übungen|Installation, Teil D, Schritt 11]] — dort auch die Variante ohne Adminrechte ([[Ohne Adminrechte]]).
+**Installation:** siehe [[00-installation-bonus#Schritt 11: Werkzeuge für die Spaß-Übungen|Installation, Teil D, Schritt 11]] — dort auch die Variante ohne Adminrechte ([[Ohne Adminrechte]]).
 
 **Übung:** Wechsle zunächst in `/notizen/bilder/marie` (mit `cd` oder im Explorer/Finder auf den Ordner `notizen/bilder/marie` klicken und „Im Terminal öffnen"), dann baue die Animation:
 

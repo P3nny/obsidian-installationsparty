@@ -21,7 +21,7 @@ Nimm etwas, das du wirklich mit dir herumträgst: ein Projekt, ein Hobby, ein Fa
 - Was fehlt dir noch, damit sich das im Alltag lohnt: mehr Notizen, mehr Übung, eine feste Gewohnheit?
 - Ehrliche Frage zum Schluss: Bei welchen Notizen willst du gar nicht, dass eine KI mitliest?
 
-*Der letzte Punkt ist kein Einwand gegen das Setup, sondern ein Argument dafür: Dein Vault liegt lokal auf deiner Platte. Du entscheidest pro Ordner, was du der KI zeigst — anders als bei einem Dienst, bei dem alles hochgeladen wird.*
+*Der letzte Punkt ist kein Einwand gegen das Setup, sondern ein Argument dafür: Dein Vault liegt lokal auf deiner Platte. Du entscheidest pro Ordner, was du der KI zeigst — anders als bei einem Dienst, bei dem alles hochgeladen wird. „Lokal" heißt aber nicht „verlässt nie den Rechner": Was Claude tatsächlich liest, wird zur Verarbeitung übertragen. Details dazu, und was das für Trainingsdaten bedeutet: [[Claude Code Datenfluss]].*
 
 ## Und wenn du nur eine Sache mitnimmst
 

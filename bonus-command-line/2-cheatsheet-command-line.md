@@ -24,7 +24,7 @@ Reine Referenz zum Nachschlagen — keine Übung. Deckt die Befehle ab, die im B
 | Duplikate entfernen       | `sort datei \| uniq`  | `Get-Content datei \| Sort-Object -Unique`                   | kein einfaches Äquivalent**                                               |
 | Hilfe zu einem Befehl     | `man befehl`          | `Get-Help befehl`                                            | `befehl /?`                                                               |
 
-**Für Textverarbeitung fehlen cmd schlicht die Werkzeuge — nutze hier Git Bash (aus [[00-installation#Schritt 10: Ein besseres Windows-Terminal|Installation, Schritt 10]]) oder PowerShell.
+**Für Textverarbeitung fehlen cmd schlicht die Werkzeuge — nutze hier Git Bash (aus [[00-installation-bonus#Schritt 10: Ein besseres Windows-Terminal|Installation, Schritt 10]]) oder PowerShell.
 
 ## Weiterführend
 

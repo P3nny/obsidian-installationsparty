@@ -7,6 +7,7 @@ Obsidian speichert deine Notizen als einfache [[Markdown]]-Dateien auf deinem ei
 Konzeptionell ist Obsidian die praktische Umsetzung des **Zettelkasten-Prinzips**, wie es der Soziologe Niklas Luhmann für sein wissenschaftliches Arbeiten entwickelt hat: viele kleine, atomare Notizen, die untereinander verlinkt sind, statt einer starren Ordnerhierarchie. Aus dieser Vernetzung entstehen mit der Zeit unerwartete Verbindungen zwischen Ideen — deshalb wird Obsidian bis heute viel im wissenschaftlichen Arbeiten eingesetzt.
 
 **Tipps zu den Übungen findest Du unter [[#Auflösungen]]**
+Die Übungen sind KI-generiert und teilweise nicht intuitiv lösbar. Spring gerne direkt zum Auflösungsteil und frag bei Patricia oder deiner Mentorin nach. 
 
 **Übung:** Öffne Obsidian und schau dir parallel dazu auf deiner Festplatte an, wo die Dateien darin liegen. 
 
